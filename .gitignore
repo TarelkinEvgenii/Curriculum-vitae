@@ -4,6 +4,6 @@
 # *.iml
 # out
 # gen
-.idea
+.idea/
 .obsidian/
 .trash/
