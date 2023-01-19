@@ -10,3 +10,4 @@ Feel free to look at other repositories of mine on this githab, such as the foll
 
 ### Contacts
 Email: klaymentv@gmail.com
+Kaggle: [https://www.kaggle.com/klaymentv](https://www.kaggle.com/klaymentv)
