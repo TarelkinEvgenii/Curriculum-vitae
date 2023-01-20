@@ -20,8 +20,8 @@ The goal of this project is to find out how this transformation affects performa
 For the task you can use jupyter notebook. Try to write the code in a modular way. In every sub-step that is not fully defined write comments that explain your decisions.
 
 The test task id divided in the following sub-tasks:
-- Download the CharacterTrajectories dataset e.g. from http://www.timeseriesclassification.com and the MNIST dataset
-- Perform the following tasks once for the CharacterTrajectories and once for the MNIST dataset:
+- Download the CharacterTrajectories dataset e.g. from http://www.timeseriesclassification.com
+- Perform the following tasks once for the CharacterTrajectories:
 	- Write a Python script to read and appropriately pre-process the data.
 	- Write a script to plot one sample of each class.
 	- Write a Python script to train AlexNet on the dataset.
