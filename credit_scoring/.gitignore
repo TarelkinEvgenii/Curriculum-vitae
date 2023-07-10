@@ -1,0 +1,11 @@
+.idea/
+.obsidian/
+.trash/
+.env
+.venv
+env/
+venv/
+__pycache__/
+catboost_info/
+src/app/core/test_X.csv
+src/app/core/train_X.csv

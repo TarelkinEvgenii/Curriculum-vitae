@@ -1,0 +1,232 @@
+schema: '2.0'
+stages:
+  features_application:
+    cmd: python ./src/app/modelling/features/application.py
+    deps:
+    - path: ./data/application_test.csv
+      md5: 42c2c6b7683003bae1b99c469f79497f
+      size: 26567651
+    - path: ./src/app/modelling/features/application.py
+      md5: 83f4c163a02086c2fd55c326360e482d
+      size: 10691
+    outs:
+    - path: ./data/features_application_test.csv
+      md5: c846d608c532980d3d40f5f847313bad
+      size: 6135320
+  features_bureau:
+    cmd: python -u ./src/app/modelling/features/bureau.py
+    deps:
+    - path: ./data/bureau.csv
+      md5: ec0f59a16e7071de66b83217b23bb390
+      size: 170016717
+    - path: ./src/app/modelling/features/bureau.py
+      md5: ca0fbffd0b36d915045257002ec73b30
+      size: 13664
+    outs:
+    - path: ./data/features_bureau.csv
+      md5: e8c99a171e42a3fea52aafec8aa58359
+      size: 131437777
+  features_credit_card_balance:
+    cmd: python -u ./src/app/modelling/features/credit_card_balance.py
+    deps:
+    - path: ./data/credit_card_balance.csv
+      md5: ff83bfc2285d218802c6dff749bc5efc
+      size: 424582605
+    - path: ./src/app/modelling/features/credit_card_balance.py
+      md5: 6d4dfbb4f40c3aeb71e7582fb8205ad7
+      size: 1486
+    outs:
+    - path: ./data/features_credit_card_balance.csv
+      md5: 7860cc23c2e3811d86a32e8c1ea23b10
+      size: 172974210
+  features_installments_payments:
+    cmd: python -u ./src/app/modelling/features/installments_payments.py
+    deps:
+    - path: ./data/installments_payments.csv
+      md5: 4e9751972d02c376f0e75edbf6c9d07d
+      size: 723118349
+    - path: ./src/app/modelling/features/installments_payments.py
+      md5: a8bc7c2832d0db2650e943b2a9328fe1
+      size: 1906
+    outs:
+    - path: ./data/features_installments_payments.csv
+      md5: 43f25c376ff2354bb9dbbbbf4cdbcf2f
+      size: 124398569
+  features_previous_application:
+    cmd: python -u ./src/app/modelling/features/previous_application.py
+    deps:
+    - path: ./data/previous_application.csv
+      md5: bd1eb5f08a4700414db1742e5cc0f9fa
+      size: 404973293
+    - path: ./src/app/modelling/features/previous_application.py
+      md5: 195ebb4d9c26cfe5a78392d5021b7e5d
+      size: 3163
+    outs:
+    - path: ./data/features_previous_application.csv
+      md5: 705fc2fd051fcc4b74d4bea3b4fc56f1
+      size: 438843307
+  important_application_train:
+    cmd: python ./src/hw5/application_train.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./src/hw5/application_train.py
+      md5: b8b03577db599affba9ff9faabd1506d
+      size: 1256
+    outs:
+    - path: ./data/important_application_train.csv
+      md5: c1e74c28aaeb8663812d90ce3268b630
+      size: 77228706
+  important_bureau:
+    cmd: python -u ./src/hw5/bureau.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/bureau.csv
+      md5: ec0f59a16e7071de66b83217b23bb390
+      size: 170016717
+    - path: ./src/hw5/bureau.py
+      md5: c1374963b970154354dc3e8273ba9a23
+      size: 1506
+    outs:
+    - path: ./data/important_bureau_train.csv
+      md5: 9547481b4ff0b1dc806b1a7db36d1df2
+      size: 89560899
+  important_bureau_balance:
+    cmd: python -u ./src/hw5/bureau_balance.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/bureau_balance.csv
+      md5: 5e815ea6eb338752724bcf46da13c602
+      size: 375592889
+    - path: ./src/hw5/bureau_balance.py
+      md5: b0bc6b60afa6ff97908a135def97265e
+      size: 1920
+    outs:
+    - path: ./data/important_bureau_balance_train.csv
+      md5: 79a02abed270c3da6add2381ee1e41ac
+      size: 349111496
+  important_credit_card_balance:
+    cmd: python -u ./src/hw5/credit_card_balance.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/credit_card_balance.csv
+      md5: ff83bfc2285d218802c6dff749bc5efc
+      size: 424582605
+    - path: ./src/hw5/credit_card_balance.py
+      md5: d284f36d0143e1b4b2ba918002f18944
+      size: 1661
+    outs:
+    - path: ./data/important_credit_card_balance_train.csv
+      md5: 4bf204cb765e73f03663dfae6f3e8765
+      size: 210102388
+  important_installments_payments:
+    cmd: python -u ./src/hw5/installments_payments.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/installments_payments.csv
+      md5: 4e9751972d02c376f0e75edbf6c9d07d
+      size: 723118349
+    - path: ./src/hw5/installments_payments.py
+      md5: cf4f048c9756beaad8c900738fb74ab4
+      size: 1799
+    outs:
+    - path: ./data/important_installments_payments_train.csv
+      md5: e46eff487f0c6b453bbce0ba22ee14b6
+      size: 374977687
+  important_previous_application:
+    cmd: python -u ./src/hw5/previous_application.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/previous_application.csv
+      md5: bd1eb5f08a4700414db1742e5cc0f9fa
+      size: 404973293
+    - path: ./src/hw5/previous_application.py
+      md5: 54249e8975858703aac03024cfcd9db2
+      size: 1786
+    outs:
+    - path: ./data/important_previous_application_train.csv
+      md5: 21ffdf1e616df4ab80d069228ec6707b
+      size: 232670832
+  features_log:
+    cmd: python -u ./src/hw_31/hw31.py
+    deps:
+    - path: ./data/POS_CASH_balance_plus_bureau-001.log
+      md5: 8a5678bf93f98087b00c1354bb75f121
+      size: 2856099124
+    - path: ./src/hw_31/hw31.py
+      md5: 92638d0ff7374d53aa92fa3dd7ad4742
+      size: 5669
+    outs:
+    - path: ./data/log_POS_CASH_balance.csv
+      md5: 97d746ba046730b767e007efea133ca5
+      size: 401800462
+    - path: ./data/log_bureau.csv
+      md5: 0edab8867b3967f0c32f543e2be21094
+      size: 171733123
+  catboost:
+    cmd: python -u ./src/app/modelling/hw7_catboost.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/features_application_train.csv
+      md5: 28af9463efab03c25ee8963fdfd3d270
+      size: 34466514
+    - path: ./data/features_bureau.csv
+      md5: e8c99a171e42a3fea52aafec8aa58359
+      size: 131437777
+    - path: ./data/features_credit_card_balance.csv
+      md5: 7860cc23c2e3811d86a32e8c1ea23b10
+      size: 172974210
+    - path: ./data/features_installments_payments.csv
+      md5: 43f25c376ff2354bb9dbbbbf4cdbcf2f
+      size: 124398569
+    - path: ./data/features_previous_application.csv
+      md5: 705fc2fd051fcc4b74d4bea3b4fc56f1
+      size: 438843307
+    - path: ./src/app/modelling/hw7_catboost.py
+      md5: d91aa6a67123345b9f603dcb6e7b6f28
+      size: 5057
+    outs:
+    - path: ./data/hw_7_catboost_model.pkl
+      md5: 36da9eda93a528ff8b5f9b9551d80e01
+      size: 1134885
+  random_forest:
+    cmd: python -u ./src/app/modelling/hw7_random_forest.py
+    deps:
+    - path: ./data/application_train.csv
+      md5: 793a017f41fbac1dc28176b26dbab30e
+      size: 166133370
+    - path: ./data/features_application_train.csv
+      md5: 28af9463efab03c25ee8963fdfd3d270
+      size: 34466514
+    - path: ./data/features_bureau.csv
+      md5: e8c99a171e42a3fea52aafec8aa58359
+      size: 131437777
+    - path: ./data/features_credit_card_balance.csv
+      md5: 7860cc23c2e3811d86a32e8c1ea23b10
+      size: 172974210
+    - path: ./data/features_installments_payments.csv
+      md5: 43f25c376ff2354bb9dbbbbf4cdbcf2f
+      size: 124398569
+    - path: ./data/features_previous_application.csv
+      md5: 705fc2fd051fcc4b74d4bea3b4fc56f1
+      size: 438843307
+    - path: ./src/app/modelling/hw7_random_forest.py
+      md5: 2f8ab9b048e9e88536377572da72ee13
+      size: 5648
+    outs:
+    - path: ./data/hw_7_random_forest.pkl
+      md5: 4860d71dd2ba755f0901716c96132845
+      size: 3058630

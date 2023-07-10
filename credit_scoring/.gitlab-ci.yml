@@ -1,0 +1,23 @@
+stages:
+  - lint
+  - test
+
+
+Linting:
+  stage: lint
+  before_script:
+    - activate
+    - conda activate financial_technology_centre
+  script:
+    - flake8 --config=setup.cfg src/app/core/model.py
+    - flake8 --config=setup.cfg src/app/core/api.py
+  allow_failure: true
+
+Test:
+  stage: test
+  before_script:
+    - activate
+    - conda activate financial_technology_centre
+  script:
+    - pytest tests/src/
+  allow_failure: true

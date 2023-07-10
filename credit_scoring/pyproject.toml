@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "credit-scoring"
+version = "0.1.0"
+description = ""
+authors = ["Evgenii Tarelkin <klaymentv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "credit_scoring"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+psycopg2 = "^2.9.5"
+fastparquet = "^2023.2.0"
+pyarrow = "^11.0.0"
+tqdm = "^4.64.1"
+scikit-learn = "^1.2.1"
+wemake-python-styleguide = "^0.17.0"
+seaborn = "^0.12.2"
+category-encoders = "^2.6.0"
+catboost = "^1.1.1"
+dvc = "^2.48.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

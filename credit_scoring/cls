@@ -1,0 +1,252 @@
+[33mcommit 124ea92ae0e53f9b78e5e3d6101abb5c92d5c20c[m[33m ([m[1;36mHEAD -> [m[1;32mhw10_lecture12[m[33m, [m[1;31morigin/hw10_lecture12[m[33m)[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Mar 9 22:14:06 2023 +0300
+
+    'gitlab_ci_deleted'
+
+[33mcommit 75c1420a95b92b8102b5739cb702b7e862ffcaa7[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Mar 9 21:48:18 2023 +0300
+
+    'gitlab_ci'
+
+[33mcommit 05250f2c06898b475a678eabc027bcd4ee37e055[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Mar 9 21:42:55 2023 +0300
+
+    'import_fixes'
+
+[33mcommit 44ba63245db98d46dc4e1a69d7022b930fbbd592[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Mar 9 21:31:02 2023 +0300
+
+    'tests_and_linting'
+
+[33mcommit d41e3288fc301aaedc2a4c569a2d317c2c60e2af[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sun Mar 5 23:57:34 2023 +0300
+
+    'hw9_is_done'
+
+[33mcommit 2c69b4c2c93e03b26b171299545e30755fdeb2ae[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sun Mar 5 13:45:28 2023 +0300
+
+    'first_files'
+
+[33mcommit 00a6b2aedfcb85c3b5b7b9374942ef30b53cf509[m
+Merge: d12e54e 031dc6e
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Wed Mar 1 15:43:44 2023 +0000
+
+    Merge branch 'hw32' into 'main'
+    
+    Hw32 EDA Tarelkin
+    
+    See merge request klaymentv/credit_scoring!4
+
+[33mcommit d12e54ea8b6fa94913b924ec2448d07d8c810032[m
+Merge: daf9762 add8b2b
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Fri Feb 24 18:59:42 2023 +0000
+
+    Merge branch 'hw2' into 'main'
+    
+    Hw2 SQL Evgenii Tarelkin
+    
+    See merge request klaymentv/credit_scoring!2
+
+[33mcommit daf976246f5c1ca7c383e6da267b6e5500308c25[m
+Merge: da79142 41d9abb
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Thu Feb 23 07:44:33 2023 +0000
+
+    Merge branch 'hw4' into 'main'
+    
+    hw4 features Tarelkin
+    
+    See merge request klaymentv/credit_scoring!5
+
+[33mcommit 031dc6e8ddb7ba49256eb89314672f76f38832c8[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 20 20:45:37 2023 +0300
+
+    'fixes'
+
+[33mcommit 41d9abbfe785645ab10f7f28c7c8ac54dc4153e9[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 20 19:18:44 2023 +0300
+
+    added all remaining features
+
+[33mcommit 5ac76cc841617d639ba9bd4875da6f54fe6c0dd9[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 20 04:10:27 2023 +0300
+
+    credit_card_features_some_changes
+
+[33mcommit 3bf7334dcc0e49cbd23874097f94f278ec00274e[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 20 01:33:25 2023 +0300
+
+    bureau add some features and some fixes
+
+[33mcommit 58c84476b7377e115e9b14496178dcfcb33e1d8c[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sun Feb 19 19:10:04 2023 +0300
+
+    Correction of remarks
+
+[33mcommit 709c74e4ab6ea9f0a5b22fc30c5869cdc6440404[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sat Feb 18 07:06:23 2023 +0300
+
+    'hw4_credit_card_balance_part'
+
+[33mcommit ad86cd2a7d9a2e8482723c7ae7bad909fa369b70[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sat Feb 18 06:34:18 2023 +0300
+
+    'hw4_part'
+
+[33mcommit add8b2bf2c1f8e1ef770cfc6fc1ea651d4274877[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Feb 16 23:43:13 2023 +0300
+
+    All mistakes have been corrected
+
+[33mcommit c8e36ffa64ca36346e00fad4cd9e655a0d42df4f[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Feb 16 15:11:16 2023 +0300
+
+    Another tables added
+
+[33mcommit b89189424e790e7d7b7f111ee8917235b98e905a[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Thu Feb 16 01:05:15 2023 +0300
+
+    hw32 is done
+
+[33mcommit 35ff379015371ba845d250896a90ce057ce38023[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Wed Feb 15 20:01:11 2023 +0300
+
+    Some libraries for hw32 added
+
+[33mcommit da79142bf649fe009240ca58c942de17e1e3869d[m
+Merge: 126ced0 5748099
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Wed Feb 15 16:42:06 2023 +0000
+
+    Merge branch 'hw31' into 'main'
+    
+    hw31 JSON parsing Tarelkin Evgenii
+    
+    See merge request klaymentv/credit_scoring!3
+
+[33mcommit 174fa1cbbce6e2f6d57e2466d4615c5f16910ddd[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Wed Feb 15 00:14:57 2023 +0300
+
+    bureau table initialization added
+
+[33mcommit 968ea7b42521f9f016758151d96956b1502683d0[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Tue Feb 14 23:47:19 2023 +0300
+
+    notebooks folder moved to the root of repository
+
+[33mcommit 57480991d83260f006b059b24e070f4bbc554be4[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Tue Feb 14 23:34:27 2023 +0300
+
+    hw31_is_done
+
+[33mcommit 4cd2c58eb8110e4e92302e460684f2cc3c9faf97[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 13 23:00:32 2023 +0300
+
+    tqdm added
+
+[33mcommit 5985dde18a0055ddbbbc982f033a6ff8e813699f[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 13 20:32:19 2023 +0300
+
+    small changes in libraries for hw31
+
+[33mcommit 460fae3b9238b6590c62761b3bcaa4f03e90fdc3[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Mon Feb 13 20:01:34 2023 +0300
+
+    Some changes in libraries for hw31 in order to avoid creating ambiguities
+
+[33mcommit 5161e76127187080b7f3523da824968c42e43c0f[m
+Author: Evgenii <klaymentv@gmail.com>
+Date:   Sun Feb 12 01:46:14 2023 +0300
+
+    hw2_done
+
+[33mcommit 303b5f5003d1c255512302bb8e1d10ad9491cc9e[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Tue Feb 7 19:02:06 2023 +0300
+
+    folder 'notebooks' added
+
+[33mcommit 126ced0b7092f0f6b57ef45b4937a22f7b56f16f[m
+Merge: 056c6f1 4c1b777
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Tue Feb 7 15:48:32 2023 +0000
+
+    Merge branch 'hw1' into 'main'
+    
+    Hw1
+    
+    See merge request klaymentv/credit_scoring!1
+
+[33mcommit 4c1b777a8fbaef251333479db151f0937d090687[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Tue Feb 7 18:36:17 2023 +0300
+
+    Small changes in .gitignore
+
+[33mcommit 98e75793a168b4f74dfe1f685e69ac5ed5a04e3c[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 20:38:54 2023 +0300
+
+    deleted unnecessary items from the .gitignore
+
+[33mcommit a10d7493fd665f572bf307780c090a6d56764fe2[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 04:37:31 2023 +0300
+
+    poetry added added and jupyter installed
+
+[33mcommit 88471b444310f090e219b9ea69a9418c317018ba[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 04:18:31 2023 +0300
+
+    Folders structure added
+
+[33mcommit 6ce139b0e38146fd69d38d263c93445fc541c14f[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 02:45:11 2023 +0300
+
+    test.txt deleted
+
+[33mcommit a077f7a0eb866f6091726b69bd42693a4c65bf74[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 02:42:08 2023 +0300
+
+    gitignore added
+
+[33mcommit 1a1ea806edb2e242d373386f007d9cbf395e7f83[m
+Author: Evgenii Tarelkin <klaymentv@gmail.com>
+Date:   Mon Feb 6 02:26:15 2023 +0300
+
+    Initial commit
+
+[33mcommit 056c6f1064befd2aee19484c9a474e6da2fcd56e[m
+Author: Klaymen <klaymentv@gmail.com>
+Date:   Sun Feb 5 16:10:18 2023 +0000
+
+    Initial commit
