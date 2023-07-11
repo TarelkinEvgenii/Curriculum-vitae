@@ -1,0 +1,1723 @@
+﻿
+[Header]
+ProjectFileVersion = 1.1
+[General]
+Program name = Red Lines
+Program version = 1
+Windows XP = 0
+Windows Server 2003 = 0
+Windows Vista = 0
+Windows Server 2008 = 0
+Windows 7 = 0
+Windows 8 = 0
+Windows 10 = 1
+Windows Server 2016 = 0
+Windows Server 2019 = 0
+Windows Server 2022 = 0
+Windows 11 = 1
+DoNotCheckOS = 0
+Company name = Институт Развития Города
+Website = https://kzn.ru/meriya/ispolnitelnyy-komitet/institut-razvitiya-goroda/
+SFA = 0
+DFA = 1
+Comp = 1
+[Graphics]
+Wizard image = <main>
+Header image = <main>
+Show Label = 1
+VisualStylesEnabled = 1
+[Files]
+Installation path = <ProgramFiles>\<Company>\<AppName>\
+Autcip = 1
+[Uninstall]
+Vwau = 1
+Website = https://kzn.ru/meriya/ispolnitelnyy-komitet/institut-razvitiya-goroda/
+Include uninstaller = 1
+Uninstaller filename = Uninstall
+UseCustomDisplayIcon = 0
+CustomDisplayIcon = <InstallPath>\
+[Licence]
+Licence dialog = 0
+[Finish]
+Sart program = 1
+Reboot computer = 0
+Program = <InstallPath>\Red lines.exe
+ProgramArguments = 
+[Shortcuts]
+Allowtc = 1
+Shortcut path = <Company>\<AppName>\
+[Serialoptions]
+Allows = 1
+Number = 1000
+Mask = #####-#####-#####-#####
+[SplashScreen]
+Image = 
+Sound = 
+Time = 2
+PlaySound = 0
+Allow = 0
+[Build]
+File = C:\Users\user\Desktop\Красные линии.exe
+SetupIconPath = C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\red_lines_ico_newer.ico
+UninstallIconPath = C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\red_lines_ico_newer.ico
+CompressionMethod = 0
+CompressionLevel = 2
+[Updater]
+Allow = 0
+1 = <AppName>
+2 = <AppVersion>
+3 = http://
+4 = http://
+5 = http://
+6 = Update
+Language = 0
+RunProg = 
+RunProgs = 0
+Execdlls = 0
+[Languages]
+11
+[Files/Dirs]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_asyncio.pyd
+53.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_bz2.pyd
+23 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_ctypes.pyd
+114.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_decimal.pyd
+249.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_elementtree.pyd
+124.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_hashlib.pyd
+47.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_lzma.pyd
+34.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_multiprocessing.pyd
+21.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_overlapped.pyd
+40 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_queue.pyd
+19.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_socket.pyd
+67 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_sqlite3.pyd
+75 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_ssl.pyd
+149 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_uuid.pyd
+12.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\_win32sysloader.pyd
+13 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-console-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-datetime-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-debug-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-errorhandling-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-file-l1-1-0.dll
+21.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-file-l1-2-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-file-l2-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-handle-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-heap-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-interlocked-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-libraryloader-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-localization-l1-2-0.dll
+20.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-memory-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-namedpipe-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-processenvironment-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-processthreads-l1-1-0.dll
+20.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-processthreads-l1-1-1.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-profile-l1-1-0.dll
+17.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-rtlsupport-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-string-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-synch-l1-1-0.dll
+20.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-synch-l1-2-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-sysinfo-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-timezone-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-core-util-l1-1-0.dll
+18.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-conio-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-convert-l1-1-0.dll
+22.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-environment-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-filesystem-l1-1-0.dll
+20.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-heap-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-locale-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-math-l1-1-0.dll
+27.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-multibyte-l1-1-0.dll
+26.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-private-l1-1-0.dll
+69.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-process-l1-1-0.dll
+19.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-runtime-l1-1-0.dll
+22.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-stdio-l1-1-0.dll
+24.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-string-l1-1-0.dll
+24.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-time-l1-1-0.dll
+20.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\api-ms-win-crt-utility-l1-1-0.dll
+18.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\base_library.zip
+1 MB
+zip
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\bzip2.dll
+183.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\c_rehash.pl
+6.9 KB
+pl
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\concrt140.dll
+309.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\deflate.dll
+155.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\ffi.dll
+27.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\ffi-7.dll
+27.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\ffi-8.dll
+27.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\freetype.dll
+633.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\icudt58.dll
+25 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\icuin58.dll
+2.5 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\icuuc58.dll
+1.8 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Lerc.dll
+376 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\LIBBZ2.dll
+183.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libcrypto-1_1-x64.dll
+3.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libcrypto-1_1-x64.pdb
+9.8 MB
+pdb
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libEGL.dll
+17.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libGLESv2.dll
+3.2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libimalloc.dll
+13 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libiomp5md.dll
+2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libiomp5md.pdb
+4.3 MB
+pdb
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libiompstubs5md.dll
+40.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libjpeg.dll
+265 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\liblzma.dll
+151.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libomp-fallback-cstring.spv
+14.6 KB
+spv
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libopenblas64__v0.3.21-gcc_10_3_0.dll
+34.2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libpng16.dll
+188 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libssl-1_1-x64.dll
+670 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\libssl-1_1-x64.pdb
+2.2 MB
+pdb
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\lzcat.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\lzma.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\lzmadec.exe
+295.8 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\lzmainfo.exe
+307.9 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_avx.2.dll
+43.6 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_avx2.2.dll
+41.5 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_avx512.2.dll
+55.8 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_ilp64.2.dll
+549 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_intelmpi_ilp64.2.dll
+132 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_intelmpi_lp64.2.dll
+132 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_lp64.2.dll
+308 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_msmpi_ilp64.2.dll
+132 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_blacs_msmpi_lp64.2.dll
+132 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_cdft_core.2.dll
+393.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_core.2.dll
+74.8 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_def.2.dll
+37.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_intel_thread.2.dll
+52 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_mc.2.dll
+41 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_mc3.2.dll
+42.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_msg.dll
+190 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_pgi_thread.2.dll
+51.1 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_rt.2.dll
+31.2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_scalapack_ilp64.2.dll
+7.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_scalapack_lp64.2.dll
+7.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_sequential.2.dll
+24.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_tbb_thread.2.dll
+30.1 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_avx.2.dll
+15.8 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_avx2.2.dll
+14.9 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_avx512.2.dll
+14 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_cmpt.2.dll
+7.6 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_def.2.dll
+8.5 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_mc.2.dll
+15 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl_vml_mc3.2.dll
+14.7 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\MSVCP140.dll
+576.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\MSVCP140_1.dll
+30.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\MSVCP140_2.dll
+189.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\msvcp140_codecvt_ids.dll
+27.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\omptarget.dll
+677 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\omptarget.rtl.level0.dll
+1.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\omptarget.rtl.opencl.dll
+1.2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\omptarget.sycl.wrap.dll
+71 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\opengl32sw.dll
+20 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\openssl.exe
+531.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\openssl.pdb
+2.4 MB
+pdb
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pyexpat.pyd
+184.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\python3.dll
+53 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\python310.dll
+4.5 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pythoncom310.dll
+652.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pywintypes310.dll
+128 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Core_conda.dll
+5.2 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5DBus_conda.dll
+423 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Gui_conda.dll
+6.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Network_conda.dll
+1.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Pdf_conda.dll
+4.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Qml_conda.dll
+3.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5QmlModels_conda.dll
+426 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Quick_conda.dll
+4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Svg_conda.dll
+318.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5VirtualKeyboard_conda.dll
+750 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5WebSockets_conda.dll
+140 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Qt5Widgets_conda.dll
+5.3 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Red lines.exe
+10.3 MB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\red_lines_ico_newer.ico
+9.4 KB
+ico
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\select.pyd
+18 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\sqlite3.dll
+1.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\sqlite3.exe
+1.8 MB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tbb12.dll
+194.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tbbmalloc.dll
+97 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tbbmalloc_proxy.dll
+30 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tcl86t.dll
+1.6 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tclsh.exe
+68.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tclsh86.exe
+68.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tclsh86t.exe
+68.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tiff.dll
+696 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tk86t.dll
+1.4 MB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\ucrtbase.dll
+992.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\unicodedata.pyd
+1.1 MB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\unlzma.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\unxz.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\vccorlib140.dll
+329.8 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\vcomp140.dll
+180.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\VCRUNTIME140.dll
+99.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\VCRUNTIME140_1.dll
+43.3 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32api.pyd
+128 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32evtlog.pyd
+72 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32pdh.pyd
+32.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32trace.pyd
+21.5 KB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32ui.pyd
+1.2 MB
+pyd
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\wish.exe
+56.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\wish86.exe
+56.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\wish86t.exe
+56.5 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\xz.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\xzcat.exe
+441.6 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\xzdec.exe
+327.1 KB
+exe
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\zlib.dll
+85.5 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\zstd.dll
+621 KB
+dll
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\.logs\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\branca\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\certifi\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\charset_normalizer\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\contourpy\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\ezdxf\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\fiona\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\Fiona.libs\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\folium\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\geopandas\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\kiwisolver\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\markupsafe\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\matplotlib\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\mkl\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\numpy\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\openpyxl\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pandas\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\PIL\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pyproj\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pyproj.libs\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\PyQt5\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\PyQt6\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\pytz\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\shapely\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\shapely.libs\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\tornado\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32\
+N/A
+[Folder]
+C:\Users\user\Desktop\gis_project\Forms\App\dist\Red lines\win32com\
+N/A
+[Folder]
+[Licence_Begin]
+155
+{\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil Arial;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\f0\fs20\par
+}
+ [Licence_End]
+[Registry]
+[Variables]
+[SCs]
+Desktop
+Красные линии
+<InstallPath>\Red lines.exe
+
+<InstallPath>\red_lines_ico_newer.ico
+0
+[IFP_End]
+[Serials]
+QAI0R-08H2D-TR9EJ-1DHF0
+DXCK9-OJ1M7-3B24D-G5G23
+Q8Z0F-NOBG5-HLGSN-9PK7Y
+L3BF0-RCZO1-SQIEK-BVQ73
+2B72K-H2MOE-B28VC-7X17G
+C7O0R-WRROU-OQ0AI-3HDW6
+TRQ9Z-AN2SV-UH4D9-T2O76
+BWVFL-M0KUB-W637Q-1EV28
+54PPK-A4LDQ-OYU9K-DMG8Q
+Z9GB4-B8NLY-2GPBD-0J6EE
+A1HB4-UAALQ-OSAM4-X64IM
+IB185-8F3ML-RTBC1-6UJ69
+3P96H-WDQ15-RBLTJ-BA1CT
+GBRS4-JLFQS-6DP5A-UL6OL
+SWIJ5-8C1MF-YHR8U-5LZ0Z
+2SIAD-K7VJZ-3YSVR-MRLCD
+BDYUV-K0C4M-EK3OR-QCM7P
+56E4Z-D1IQT-9B0X8-0EPW0
+0BOEJ-WJ20A-0HQNU-VVSAG
+4NFBU-4O301-N7Q55-B5WTN
+MO46K-NDH4B-6T975-HR53A
+4FYI7-Z9O3B-BNQRS-3XMMU
+BOY9W-WS195-4HI3V-WIX9U
+0R2YL-17DWW-36FI1-BTW0R
+U6XRK-ZBMXZ-EUTA0-FDQNB
+99T0U-CW7SB-9ALTR-7ZYQ3
+SK6S4-PT4Y1-SB6I7-9AFZ8
+5AE9D-K71K9-GNEBT-7E80C
+QYI0G-OE0S0-DLFPS-JTBX8
+6EVGE-BOKY0-GR0JF-MUBD0
+6CQ6C-5OXAU-YPXND-TI3LG
+LP8P6-5GKW6-G0L7D-XY0SV
+Z2C4V-UKY7T-R8LFO-D8BI2
+NE7X7-K7V89-L2S78-I14KJ
+U8JPU-OJNI6-X8BZD-N7SM7
+DVAQJ-RQOH5-7T3YB-X2CA6
+NQUYH-QK8Q0-4G1NB-19621
+T74YW-7K61X-TYZMA-UQ757
+A9FPT-H0C5M-J4FRX-97FGT
+SR02L-Y1DAT-C06BY-WKZ0T
+5TJFW-UGLOH-AX7E4-HLSDO
+I7PC8-1XNTN-BC88Y-PEBKF
+4OEDN-NESN9-S4ZRQ-X93QQ
+5DQ8T-9E6S4-QZIJH-S1E1T
+HTYHM-P2CWD-06A43-6GW50
+FBM0H-TYV1R-WJMRF-MW5SM
+V0X8I-Q6WCU-UN1BC-BCJWD
+5H2WQ-P1WGS-D01CX-W9M1S
+Q69FF-GZ2JL-RJ81D-XG9UC
+J1JS6-N12C6-ZZ1ZJ-FUGBF
+536XG-EYUIQ-KQ83L-5I2IO
+UZT9U-3PRD9-QDQKI-XFOLK
+3K2L2-H3O86-7TU0G-0441A
+6PS1G-YHM37-Z1MH4-3M6MW
+YOE04-706VM-1VM5O-94IR5
+MVDGQ-H13R8-FZEW7-F7JEB
+PX61H-I1R6B-8ZSVY-MQJFO
+6OQ4T-N87K8-LTR1O-5L8WL
+10HOB-DXQCH-D3E29-ST4X3
+ZRVJI-89HZD-KP6B9-QVXW2
+GDYUV-6M3HF-9Q1BF-QZIF6
+SQQCT-8O7L2-R8DQJ-AN050
+W95QD-MWOWN-CO1DK-VACP8
+NENF2-RJ9WP-07YQL-9F19P
+WO3UG-B6J3A-FB2X3-Q2O8I
+6PKBP-GPMUE-4HN8F-QK7J6
+7TNMR-AMOH3-3S3SE-IIRQM
+OP5OJ-MZOXN-EAEKV-3DY8Z
+7EBLT-XNWJ2-A4X7Y-7O40U
+XTFXZ-3QMTK-ZRISV-18R3B
+N5VIC-E6NNV-RECAT-DTYGC
+AA7H0-98XQB-J5C8L-H32UJ
+YOI5M-A77WE-SSJJ8-IAFGA
+75PVR-YH52A-H0L8Y-Q38CT
+AWK6X-CFML2-CIYIN-9V7AC
+NF0Y6-PJJDH-NVBKM-1D0TH
+NGI94-6ZJKI-7UVPR-R3JAU
+JNPQI-RRGDS-EAYFV-EA59H
+NMK0P-9TUHD-2IKBF-3LXDH
+A64P2-XXX0B-FDWJF-07E9J
+VOV2M-LYT4W-O3PHP-8QN2T
+MJNPG-N59R2-FNC6Q-WEN8G
+JYDEE-AYA5W-ZQ8ER-WXBBX
+CJIM8-7BBRI-QKM3T-79VAA
+KHF6A-DTPYW-TJW1D-84PVC
+Z2QPB-FD2TM-H8B4I-LFBWX
+KBRQ9-NHJBT-4HPEA-W4IEX
+I66ZF-C982E-BGKUL-NPD9N
+72HTZ-G8J71-BAHXL-EKKDJ
+8T5B0-NOD48-DZY6F-74NF0
+XWC8D-JXHME-83V0W-NF9MU
+STOU2-ZT2WB-3UEEW-AXV7W
+3CAQK-5XBVF-KV42Z-R4OKN
+XOG77-EK6NB-RK09C-LLN7G
+7VWRU-SFALF-8UIM1-9XKN7
+KQGII-FDH14-6NBSF-XOE1W
+IYZQV-3QKJK-3KTA9-5ZGLF
+5PJ6U-LAIP0-4R2OQ-7K33V
+8QZ8O-X4LBY-8BBD8-Y6A3Z
+KUBJG-WF5ZY-30DG4-KFDQ8
+M08IQ-BFTHL-ZKJ0U-EKQTC
+XCQJT-RUMGX-DWEJG-MQ7PF
+UN9A9-00PJ5-58AME-M3J7R
+DNEFI-B4I5R-VC606-U5OVR
+75LMP-N5UYA-CX6DD-31X9S
+UQCB9-D9N5V-9LIKZ-JSZ4R
+42A5L-KI3PK-3LQF9-F1FVL
+99NDE-715RH-ZCIMX-DCBP0
+UMTFU-7T8VN-F1Z3N-TEWW5
+1BWMC-GXXK5-R6OYX-CHH0Z
+ZVGFF-B5Q92-PQANR-KNJYF
+KV4NA-Q9ONO-WPDXH-TENFS
+JQ5SQ-FYXCT-VLE55-MO50G
+2UEPE-JNK2A-8QAOO-B2WT6
+XZS1M-QS5UP-Z6TXI-SP9Q7
+9JTMB-Q2U6L-Z7E8T-G81LR
+DHLQI-WJUQG-QP1Q9-GTJIO
+MMROI-HI2WV-3119P-A02DK
+XJVDU-43RVI-1T2VN-E2Y3E
+IDVQE-BLT61-5MTUY-5G729
+EJLBZ-ABBBP-H7MSB-QNMUD
+IM848-KZH50-PS1DX-1QWK8
+TSVCP-01OUG-B6KB4-H67IQ
+RCYHK-AJPUH-D2276-9APJH
+TWYLD-E7FSD-X2OO4-4Q15O
+J3PRU-6UKQX-V1TV0-C34GH
+O4495-KXGFD-8J5UA-4F5A7
+D6EJJ-2VC83-5UQX5-JLT49
+ZEOKI-6AOUO-121FC-H5SGV
+T1ZM5-X5XDI-36DWO-5KEJH
+MSCXR-7YJY6-UW736-LNZZO
+9DWFA-AABDX-TP7K3-5AP6D
+7477J-UUD71-OTHMZ-UORFI
+24G1V-36CWL-U7RSJ-CM2JU
+GHSI8-KEKG9-5HSQZ-8LRF6
+6LEBF-OJG1B-QSRF4-VRW5C
+MNDAY-QEW3P-8CBMO-1H38R
+PS31V-AY1Y6-IZ2NQ-9W7HZ
+D5E4K-F0U2R-ZUK8D-J0MN5
+17ON4-XXW7B-89S8S-MHD9B
+W4FY6-E5RKX-P493V-HLLHO
+EJZ75-TINHI-VXWP2-KYDFH
+WHML5-F8RIO-X4O8P-Q1P0J
+57YXS-YMXN0-439YU-KFGQD
+ENX20-37BXH-K0J6U-0I0PG
+7DAH0-2ROMH-NM0GA-58V33
+CH53X-W7F7J-P2VNF-V3HL2
+KE7D9-N93II-8NQID-DHOYY
+Q429J-L1QYC-UP9WS-U4D1W
+HVPXV-C7UDJ-HHN6K-36E85
+VT68F-PTQMI-5L4AU-404YY
+74Z1H-UIBNP-D1M5A-JOQ8T
+4YUYZ-QOM8K-SQ3RF-GE3ZW
+TNLB5-PYSD4-UCQEU-FRTNM
+0ZM86-1VUCF-FDDPI-BJ1ET
+YZ8KI-GCA68-EJIEI-EKU0J
+MQNOK-76S2Y-JVP5H-38A5M
+HG9WL-3L29H-WSP02-36GR6
+JPF7Q-9T4H8-Q82VF-Z34G4
+AWQ9V-EDJIM-P8O3U-ET90F
+X8PNQ-97LZM-H3LNL-5EF09
+1AISA-IPIS8-E3HG1-BZPAV
+4B9JV-31RY9-V85CL-7OG5D
+EL9OA-ZF72O-0711N-8BOD2
+1M9FX-KHVWZ-LALUV-4DJBL
+H6GDE-VUSE4-CYCW8-07M20
+4BWD4-2KR6N-WR72J-VH2K1
+66I80-CXIZG-DMQ5J-4UG95
+BZ2Q1-AFUM5-5ZFPK-BW1KU
+VK7N5-2CK20-IXYA7-2N0R8
+2WA7G-WJEKD-5TQKH-WITBR
+M9PNX-IQT95-KVBF3-J74NS
+R6PE8-SG71U-Z9IXV-KJC14
+YTO0S-RXP08-ZFY1Q-TQUTT
+S8QNT-6XYY0-N2KOF-ICIRW
+ZWA6V-1CF7I-S6VYL-CUHSM
+HCJME-CRN51-8JBLG-KCFNM
+9XP2K-HBLTN-WHT84-8CLSR
+5US93-MH8FL-ESSBY-B849F
+GHAX0-FAICN-ZP0ZQ-DIIGL
+2I5PL-HR8A3-K65T5-P09XQ
+3HY62-CBTFX-D8JWJ-IRZ9T
+TM31M-N65XB-S15AK-X17PW
+NP846-KVM2E-3XMIY-CTTI4
+O1ZX9-0X1IA-0J5MD-BUY9H
+7326A-Z4H2V-AEAPH-JNHRD
+R5P0T-87PAV-OKF3S-G9KJ0
+T20UL-CXN6P-7JCKU-1BEBJ
+CX09E-LB82N-2ZSZ0-YIBPK
+1JHSN-J0YSG-SX7NE-5IVRZ
+71AN9-HJNQ7-F2Q6V-77H8V
+KP1V3-UIMF4-COLWO-HNU29
+907M5-YNGRU-SX5TB-S1UYP
+BKB61-PV1PZ-LJYM9-8GB7F
+146SW-XVD87-5B0YR-XKLJK
+JXRCR-IWE25-XBMQP-V6Y1L
+1S92J-E6X9N-DO67J-DYJUL
+I5P4A-2VKX4-Z5OD3-BQQQO
+AHUBR-GNR0A-RN4ZW-YPZTE
+BF19S-ZR16Z-7TXGR-P0Q10
+MN3JL-Z0U6I-61J08-EMG1B
+WYERA-I62V6-7QRLD-12DF4
+RRKVT-PKWS6-Q2O4L-A2HW0
+1BSF8-2OPV2-XISRF-5JT65
+GW3K6-B4RUK-KHK28-UMA9S
+9E80M-G298S-LJ0FP-3N2QV
+17OUU-Y4OEL-MA0FA-PIWG7
+AC4N0-6EA0P-2NOX4-MI5S5
+KESDR-TVZ9I-7DI8M-1RKT7
+47TCX-E2TC2-IUVVO-HP9JV
+HZ26V-SE1ZW-5DVQJ-1LXGK
+N2CK4-E2RYI-VX9JQ-JADCI
+XIPGH-6KKSF-D20SQ-O5JY1
+IBJW5-OVCER-0YE02-E1ZK6
+P3F69-4YV7H-52UWO-X171A
+WZOBI-Z6664-33R5J-QCSYD
+EOQDC-8LM4P-PQASH-MEZKP
+2VEOW-IEND8-G7UFY-MB5M0
+O70LT-PIK89-VHG9S-X4A9X
+2V6XI-PQ8QJ-YOVZ6-DKRII
+IRUD4-5B1T4-Q8SJR-MAVFM
+IL8PR-ZFV0W-5NQGH-0BLDK
+SCDGM-GANL3-SXX5J-UWVZH
+8URHP-82LEM-TEH8J-91JG4
+1Z2EG-8OEWK-6SOUG-HA9VC
+N23G6-WK29Y-802QN-R0KF1
+ES1IP-1JV1S-Z8LZV-TYN37
+FBMYT-V0RXW-4GAS1-5RJE3
+0TEUY-JG0EV-CDNR5-5UWNM
+V4COQ-S6N6Z-IO2LF-OKSU3
+5GJQP-0PMG2-JSQYG-CQS9D
+D3XEY-1C9OH-JB8WR-UQ2Y7
+WX02V-OAL3T-WDV4D-S2FE3
+J1DI7-OONGQ-EDQWP-8D7R8
+5HEVK-EJLTX-KZBY4-WVSHE
+128YK-S64OI-RA5FH-37VJB
+9SKVD-QMRDY-VBYYY-KJ2R2
+YH8PE-86E8V-GV9B9-GNV1E
+WW8P3-E1TSU-JCRJ4-LESNG
+PD7IA-M87KB-KRV6O-O3397
+FQNJ6-TRRDV-FQLW9-PSJFI
+F1Y18-UM35J-1JLMM-ZZ7MK
+GW3EV-WVVB1-LZ9IC-0NZ5E
+S7DRS-8A8SC-WVEVN-ZT1MJ
+TTOY4-NBVJ1-NP9Z8-GL14C
+IT9IM-KMLW4-TOXBG-1YCC1
+J5CN6-IT1D3-9LQKR-4TDE4
+PESBB-EGNNN-BCIM0-48LCJ
+7ZWAP-O33RU-YPFBT-Q0ZKB
+MHM3J-LQTZD-5OBNY-6IVFH
+89710-GB4BA-G1HEC-OBB6Y
+9FFQD-I5E5V-KE6N2-313MQ
+2V3C2-Q1KDF-F7JO9-69UM7
+2AA69-IRETT-MOP7X-FX49V
+364PZ-AWPRA-HJMEI-E6HY9
+NGG1D-8X929-N8LL0-CZFGS
+LCIAZ-9PWVQ-6MOIF-XX7JW
+EHYQD-36ZAT-VALHN-FDRRQ
+AHG8U-ZUN5X-REDZS-I4JT4
+B3FGQ-SWDUX-ZK8O3-CCC93
+V99M9-B0D0L-T4WP7-YM853
+FTA6I-C8KYY-DFRY1-ATMDY
+HF4DF-PP2OI-3YIGS-J4G80
+M46BB-UYZMC-YWIDW-91UKM
+QLTU9-5I3N0-Q3I7P-62RGD
+3EJ1C-LGBDU-EZDQ3-ODTIP
+97U85-2NWHD-I6XW3-PFBDY
+0S4EB-5ZVFK-ZVSB1-D3XLI
+Q922Y-YGQSX-7XCMP-4GGO1
+B70UP-AACLX-CHG6C-Z3M0W
+JDA5Q-V7UBT-TK8OL-P1JZX
+ZHFHN-IBYKI-6PXN0-XTNB4
+J2QLG-SVIJ6-0ODIQ-CZIXI
+65999-Y6H46-QU0EZ-05HFU
+C71YS-Z4EPH-230KY-RIZ5V
+JA78X-IU7M8-DZACX-R8SXE
+MQZ8H-8MNK2-A15PX-YVT27
+XUO3A-32KGQ-VKRGB-Q882F
+U98JO-ER0S1-QZAMY-3E192
+85668-6IAM7-RCH8K-VD0M7
+VIP10-RJPM0-A1P5N-ASP7Q
+XSDOA-ZAWG1-X1I8Y-Q6UJE
+FOMEU-6VKFX-U6MFH-ACHZU
+G3TNM-YB190-JL3I9-URL7Z
+IIPF6-MQQ1O-Z9TJU-0HAQO
+OL6W6-EMF4G-64N9O-HVMUW
+MOBX3-XJXWD-FXOP7-I4MUP
+1I9KA-5NS45-OANA0-546KU
+9ZE9G-FY2GU-SE38Q-5NHIG
+3NOSS-YBIOF-1L7RC-E5UZF
+5C55Z-CEHUB-VDM5C-QEJ1L
+DYA17-CYPQL-648SD-PRJOJ
+IYPI8-BY29Y-LDS3N-OH15U
+9A2K2-K2UJI-CYE66-5RYBC
+OYI41-BB0OA-QA703-4HCXA
+BLPLA-LFT6C-JXW0Z-JG9MW
+2EY6L-BE9IW-N03Z8-BZM73
+WUYXA-A1LFW-313H5-NF47B
+3KITI-45WPP-HZEUC-2T0RG
+349IM-ER152-GRWGR-LHPJW
+PA157-VNW5R-JLBUQ-49GB5
+9K2MR-2QNF5-LWU10-1HJF5
+ODJRA-WI1XY-VUS62-OABLN
+RPGI8-X5HX2-N3SKM-OBQJD
+SSR5Q-0XI54-6XBWF-GTYV3
+6T6MR-ILTX1-K2X4Y-GLE0C
+V6KU2-C6KUQ-SCVJK-K2EYA
+X0YEP-NMRXN-3KBXA-OTQ6A
+W59MP-9VR42-3TESZ-K8CQ9
+3XBTK-6H7S7-C141Z-FYTCS
+07YN0-UZ1SW-Z5SAF-AX986
+QCAU1-ODCQZ-59568-NM6NZ
+WQK59-6SM9R-CJX82-AT7KR
+1QTHS-18T9W-1V5CK-ZF0U6
+Z3F5L-DJLNF-UEL2Y-PIGC6
+1R6QN-Z65O8-ZYGK1-OXNIK
+P0JVC-FB3K0-N2BSD-SZ48H
+8NXIH-D790Q-SYFBL-TMTXB
+SFFMT-WN3PF-RAFPS-0APKH
+35LNG-QOD4I-K4OF2-GYJ1K
+0EO7D-6A4CL-43IRY-TTOIO
+I0JMQ-732NO-4HZQ1-J7PQ5
+YWAEO-XPVSX-SF9BJ-LJIB0
+NCCHU-FGUPR-SE1V3-CRLJA
+VP9XN-CMC79-P5NOS-FP3Z5
+4VISO-95DTM-7WOD5-5IOYO
+VO4WD-A6O22-LFKU7-JJ61H
+KNW4Y-3SBB6-87D3V-L4P3Y
+SV54Y-477JD-A67PA-59X31
+6AJDW-RSISO-T7KUB-09U6F
+7SJX1-EERGO-AAUDR-HIGO6
+EVXIR-MA5FS-E1PRG-2FINT
+H8HQR-12IAH-ZTTG3-CIE2I
+UN7PY-VOVJV-MJWVG-58QEQ
+MD81L-V2R3Q-QNVNA-SGU7F
+VC3CU-TD2J6-HI9NA-PXBVX
+7DV4X-RT8A1-N1XDZ-J7GQA
+BANI8-5R0HE-4Y3TN-CIQJP
+Z4S5M-H08HG-VF6XS-BBOWL
+CYYD0-SCFQW-58LIZ-SZIUL
+VLHXJ-6MWX6-MUA7G-ILPJN
+84X0M-NUUA3-4Y6OF-KXZFO
+580D7-MBZ3L-I9PQW-CX7A9
+D7VCS-STUE9-OBFT8-2KKOI
+0PCK8-DDFM0-QL0NX-PZ4O9
+VZKUP-A5IJF-OIXJW-ZMEH4
+XL706-RPEF2-51O3H-79K4S
+Q35H9-AJGNY-EYYM0-OLA20
+E6Q70-BE70B-2HJTM-OVJB0
+LO1IY-82A1H-39P8C-TAS6T
+D4P0I-R07UQ-WZH7K-FFB36
+ONCD0-DRAEW-3QKDI-PREBF
+LBEHT-C7ZBB-L33ZE-79XZN
+OUOYX-ZMF7T-080AH-36JAY
+JFI87-UEBUS-EQCYH-7WW00
+1YBZB-565DZ-955BM-MLRO0
+ZJHZG-A94Y0-W75PO-AX1F9
+9XAKV-LCS3A-FZ65D-6PD59
+4PR1A-S2EKE-5586H-2VCA1
+L2F1K-91BXC-TIQV2-K8ONO
+9ZDX2-5DKOP-79HTH-AIFN3
+XLYZX-8QRBN-3SFKE-UPFS0
+OUNRB-UV648-3NP7A-5A5L6
+QW0BK-NVHQU-7NNMU-SD6BL
+4JV8K-0AG3T-WLKVB-JYHUX
+JRDU6-IBRVG-SYHOE-Z791S
+Q83OO-XASVZ-IFPRK-7LK93
+XC26Y-0RD9T-UTG9I-BOGAM
+36ZY6-N6X9P-EFP46-0XO54
+G1MDX-UWN6W-1LDR4-GD7F6
+PF84H-GV274-APPZ8-320M9
+Z8XBM-3K27X-7SS2K-6CCPJ
+TO8Q0-5H05S-CRVRL-UZ3CL
+6UWFY-4RYT3-EDZ7Q-0JGBM
+6I5TF-RA1JE-SU13Y-U657X
+OU4TG-CAYNC-K00T1-KQ3PE
+X3HSC-G0SNA-DLAYY-HGXL1
+SROWC-10L09-ETJZ0-OGUDG
+G2JTP-M6YRS-T18R9-ZKVZL
+BVGWR-PFRON-2ZS86-651V2
+3VNDO-7VOF1-R7G6I-NW0MJ
+NK4UA-SUJRL-1XS3D-SRJJS
+7DZI7-QXJ8M-B2MEJ-A4C4P
+GCBTF-UB5A7-I7Y4P-X430B
+59FAB-CID9U-AWMNL-BA90S
+91IQT-G7QSF-SLQDP-Q618F
+HH37G-4115S-D5DTN-WEHRK
+DO459-KWR2P-3GBYC-78SGS
+T3C2X-M7CVL-AQBOK-INX1U
+UBMGY-D3DFT-EIJ71-TV8UL
+41N3J-TNQIU-5NY3J-KL8XW
+T80P7-D5W5C-H4LCO-3U2Y9
+VLED6-64GOS-NNXRK-5UQ27
+WFEK7-SQW7X-0HC35-SYED8
+7EZS6-ZZAOQ-5FR17-HRXP3
+VE33L-SGPCK-G72RF-AE355
+A0ZDS-K4GO4-557GE-N2P9G
+AG9XF-CRZUH-W3FHI-J7JED
+B4JKS-ZWVR7-YFU9U-POS52
+GDDS4-JYGR0-Q5BDZ-120FO
+4IE5S-0SFBG-VN5DG-2EXV1
+VJJRZ-CICPD-7XP2W-76ZTA
+E9M55-1ZPV0-WOQ56-2IY9N
+2O8AC-R3WWR-PEP78-NOFK8
+1WAF2-RFRSR-M0XCI-A3EZA
+X1C9J-ON85L-84W2Y-9I5NL
+2JXR4-OAS39-SV3CA-31W1N
+AJ05R-Q7HUZ-0R1T9-UPQ0Z
+4A2E6-B96OZ-7UYPE-L7NYF
+PETM4-CG7P5-SA7YE-H6KN2
+7QCJO-LO2F1-9VXGO-HYH3U
+WN3FU-VSH7K-8HLZ9-4I30J
+30F95-SVBSA-4N712-8HMK6
+OPQFF-YB0BW-SE5XF-DCVAF
+NMOG1-RYPKC-Q7ZP1-EG4JQ
+62U9R-LCCPG-1YFM2-C98B3
+GGHV8-A0K7P-65KFR-30IYB
+2MXU8-L9HDB-PSK4H-VU1KK
+Y2MHE-CE0AU-4R4NH-N15D6
+E6EB8-LS1IM-T0KAR-QHHHU
+C6QRT-OOUA3-ZZOVH-HMXJ3
+XNB6J-LYRDG-QP5BB-J7UKA
+14BT9-W7ZCQ-GPUTL-7UBSS
+WF9RH-QGP24-1XDCS-DMMMB
+ZN4YN-HABDQ-X8EL9-7VP4Q
+RNWHX-HT6R2-QHAFW-WFIAD
+MG9YG-9G5Y3-13L3Z-9OMBX
+QSEAY-7ZRXF-PWQSC-GSHR6
+W5SRH-PBANF-NVWTC-8MIVU
+RT8VD-USOH9-84BCA-M396O
+GD4CC-LWOVY-YU10I-FNYAU
+0O3OY-2M98R-FV3IW-LZWTS
+4WLQL-M7ZKF-NLN93-04OI4
+Z9HZS-BPEFV-CBJ06-WEOP1
+DILUI-8CI2C-V9P92-B13G1
+4N7D7-DZ11Q-G9CEK-CXL07
+OZV2A-3DRME-XANTG-5NFLV
+M8135-32G0O-LHPPA-MBEYD
+D1XOK-V220T-T0TUT-OETP1
+77AT6-IJUB8-MBSCQ-JZX50
+EMCVK-DW2XI-S0HM9-8OP6M
+YNASH-APFBY-8W705-FUBG2
+X75NY-QQMH1-GL7M3-61O4L
+569X7-RMG3B-2LMGG-P9496
+9XHIL-MHQ26-HTOE9-0BTRX
+6UH90-XGEMY-9UPBC-Q3U6W
+WUBKU-WZA55-KJUQW-EMD5S
+HN1E7-C12U4-655BT-73R7Y
+5DF3H-Z8G2V-MWO9T-3C1F0
+NX40U-4JJUF-0CGKD-5OP17
+891X9-KXM2R-P63BT-YPIUJ
+98DD3-88JLZ-JCFA5-GB1EW
+A6RAS-OKAY3-7RTZ6-HCPRV
+9JR0R-G9RIS-9MLWD-1S3BX
+VK366-E68J9-H58YY-I3IU2
+T6OVS-9Z4PP-TT3AZ-EZXNA
+JEXVU-7LOCO-L2G3E-5NCX0
+ZVLMJ-ORSPM-DVTZ0-UWZKR
+R9ZD5-LJ2YQ-ICI32-4YI7Y
+1WJL5-QAM4N-FFFU1-PKLPQ
+IA2GQ-SQAMC-O79XQ-ZAI1B
+WF4MG-J508C-9UQMH-Q8RW0
+A38FG-0MRBW-XOT6Z-DU444
+73W7A-INWLZ-IBUEP-R2X80
+ZGJUZ-TL059-IPUHN-4JYNL
+VB43T-S6DYW-4Z2ZF-L98I7
+EP86X-V0VS9-U65WF-359IP
+5TS0I-EHT2F-I5PMT-OJPFZ
+JKQ4P-9SLCB-ANHCA-HUX0X
+V9964-1GTES-72M5V-XVYAF
+TZT2K-VUHX3-TJ32F-ZZWY7
+IIMSH-36W12-5ED0O-XOAIM
+L2Z49-VGXYV-PG8W5-RS0GD
+HENOD-NV2CP-ETVR6-A8ZXW
+XS3XQ-7G0WK-VVSH3-R9LHY
+J7POY-2ZHFK-IR0XC-IJ3SD
+DYHPZ-M8R79-NCA8Q-P24L5
+W6V4V-06H3F-GG6Z1-TRMN2
+52043-AAV9Z-OOTTB-9WRI0
+YWTH4-W20F7-KEEVX-N6XPA
+FWW48-US3WH-BB9GC-7CP05
+VHVOA-CPM5R-PF5MM-ALCLG
+LZ9KJ-E1UKK-KIUH0-N04OD
+YZY0Y-UB0KQ-XQD1Q-DSO05
+DPV5F-NONJC-SH4F8-30C6V
+PPSFV-Z7C30-O9CED-Q8YPB
+J3BQA-1MKL0-5PJPV-ITZ1N
+CEZ4N-2CYA7-J0KZ2-FOSGJ
+ZDVS1-GOTGS-WNXPZ-Q1Y0L
+HDVPX-40XWB-A0NDN-S90U1
+9YZZ3-X1ADX-IFCB4-MTSGH
+2JJTZ-GMQ6O-KL5A7-05EEB
+3UJ88-CHURP-QXW9G-APH0C
+A6XN8-ZYV12-LZZQD-ZLHDS
+FAV3H-QY50A-MNNFL-6YK0D
+B3TFI-0AAJK-TZM1Y-L4CE0
+ATFW5-9C7SI-904WK-LDVW4
+GV0A5-MY9OQ-S2FQI-PO4PS
+79094-INBBN-PSPDZ-JENYL
+SV8GU-9OW6L-1HYIJ-6QESK
+HVUIP-6IVMV-4A3Q4-8Y6KD
+G5W52-4C3E6-9P6J5-Q16XY
+01K88-IYRGX-JYDNI-4UBQL
+NQU1H-DH4H8-XIQCU-LH40B
+YGEBB-LO02L-C0NKJ-FH57X
+TM8RD-55R12-LGO8T-PIR10
+4F97G-3WTX8-IU0XB-9Z9K8
+NRATY-BOXGX-1XOKE-8K0SH
+ZKDAZ-VLEAS-Z1Z1A-DYKGN
+8641U-VE16P-32LRG-60V4V
+M2O6P-TWUL3-CWFH2-BWAJA
+BFYNB-F0ILV-5JD00-9MT3J
+JG6ZQ-GHRJK-NURWD-OL4H0
+50Y46-D64K3-0K9W2-B76F4
+IPDHO-K7JG9-JZHUA-MDDJO
+64SGE-PHQHB-6CLJ3-O4Q70
+MR8WE-4X5LM-XTTO5-P5QP9
+AA2YQ-942IA-HKKOD-FZQOE
+JDI6Z-GUFSG-N686I-LFFI2
+WRE9N-FKKW7-5D9BA-ZMDYE
+JQCAF-DXI02-OTKE8-Z005R
+7VX77-2POEG-O6JCS-YJZRR
+OLTYX-AU292-PMQYV-BJ9VN
+F0JPG-PJ3DR-BX864-CA9HQ
+AJK1X-YLSAO-3HGXR-BYLP6
+Q61O9-LKB4W-T9QQ1-WFIK6
+1C6IV-Y62TN-OUDRS-ZM1IU
+25WB1-NZHJ4-VOTG5-XDYUS
+NCHYR-PFHSA-WH3HX-0FT6U
+84DZZ-S2UM3-1JN2T-S9ISI
+CLTQZ-JBXFU-UA648-KC5BY
+SE0ES-ETWVR-6OIOA-0DZBZ
+65AYZ-XNL6W-RS02Z-B74NL
+MIIMU-2CAH3-11IL0-LJ0X2
+B062E-UGTY3-6UK5U-XN35Q
+A49AX-K4ETW-V3B1B-6QGC7
+V5DAR-WN1IT-7PEY3-0ABO3
+KX30X-YGHT8-CC050-HJX3C
+AK4XJ-Q4D7U-PJ6B1-RW54L
+5C9VW-DVQTA-KOUFD-DL4MX
+MGWFG-M4P6M-OAPXX-C7NHS
+10K7D-WQG5N-UJTDA-08CNW
+UZV9N-OZ3XJ-WFUJX-KGWQL
+B48WM-PH96T-WAOC6-HSX48
+4546A-V7FGD-3NHXK-SNUO3
+8831Y-DX4WL-HEV99-PVQBA
+OOOG8-AJH36-ONPGP-AFXYA
+CSTCI-3UDID-4XPXW-JGUOM
+UTLFE-AD8SA-ACO3J-1O1JV
+R3KG7-JZYJG-4BQXL-8ERBH
+0NIHF-M01Z2-DKF1U-M9M9P
+JQWYE-LR3YC-AMWZF-J3CJW
+LOTWX-DD9RQ-HRNXR-J5NWH
+FEGEE-1CQ8Z-HVXAS-2YHH4
+7BHFC-203FO-KG5WT-XRM1Z
+XTFBD-XWCEZ-5GSNG-13QSY
+RHD1U-OJKT2-CMTC1-1EZCO
+QGPS3-ZXZ1D-DA032-U1M2D
+LFP4J-6OBKF-298UO-OF8CT
+QWLS1-8VQ0Q-X2YMG-DHXJL
+P3UGI-E04XA-FVG7O-OT7R7
+HDSSR-LAP2L-NAFP2-418GY
+FTYJ9-Z02GV-99E4N-LITZX
+KS5EU-XO11N-7IQHO-5T858
+0INZU-DTCUA-F76GB-TX10P
+ZQZQ3-UVXVZ-LK1WN-F3OXI
+O9FGB-2OG2G-BLYCQ-3KRP2
+L8XJB-JDK17-E7RAI-YAFR8
+WKI5A-2QFLN-FMEH0-XJG3J
+7JI56-AS24U-INLLX-VU7T4
+Q3H7O-K1YCY-2HVWT-S34OR
+CJ7R1-GRA9D-KIVU4-INMSN
+E8XV8-71TO6-GA29U-CDBW3
+FI79J-DIUE0-HZZKC-AJ72Q
+L8T0R-QZQIY-V19ZY-1RJDW
+33UD6-O5ROA-1S51I-VU0AU
+DMBTQ-A0HZZ-F8P4H-XES2E
+D9ZI0-RGBGZ-EMRJ5-X21Z5
+18956-X26VH-JI31R-T7WLU
+UYHS1-XAP31-3JC86-XJ6CX
+BOYGF-4D4GW-C4OMX-M5RDI
+DQ0YY-YACGM-62GJ5-ROG7T
+YORGM-EUE31-XDRLI-CG4VE
+F0641-7MSYY-6ONGP-ED94N
+H54K1-LYEET-RL683-EHHQB
+024UD-ZCRH9-OH7XZ-NHY35
+2QF9C-PV2XW-9A5JI-HTATV
+EV3L9-W2KTU-UNWB4-HD6XY
+OB6OM-5YW3X-RBLN0-NFOP0
+6IEYD-4BQV1-36GHP-NTY0L
+PM65F-QDIAB-49ZYJ-HS8IV
+G5LY4-WH1OY-SXR7Y-KP1CB
+IOLUF-C6HK6-VALMQ-62PXT
+X55QB-F5A5C-MK84O-AMOF6
+T1J3E-GBYLK-XBOPN-5Z8PI
+N5ZC5-YXGZZ-9N9BU-AD3YF
+EHI6H-GGZ6T-GFFBD-UNH7W
+C00B1-FIJRT-PBOMJ-DXT2V
+PCBWE-3HJG9-74J0A-3LCYP
+2TMW6-V6RZC-VSULN-JCZTS
+MUSC0-2CPIE-T8SVG-QLOMN
+P4IIG-774F8-I61YQ-VO06W
+R2A2H-Y6REX-OPO9J-6BOZ0
+V7MET-ATBD1-TK8TP-M9R63
+YU0YT-4IVXC-S88G9-AICUO
+0BGKC-R9AQQ-2AFFA-R4NGR
+ZFWFG-B3NMZ-27WUW-NLBDK
+DBLY6-YXVYL-YH4DW-B311G
+KZHY8-WODIH-G4HEG-171N3
+3XDYA-82ZHX-FBHDP-E9P8M
+AM8GX-FY6MW-YGDGI-GPX8V
+J51W7-LI5WZ-DD2IJ-SDEV6
+66B7I-Q1BXR-J190S-QYVAL
+YHWQO-06TSB-5BIXG-OYDO6
+5TL27-J9EN6-CT51R-VT25L
+LEV6U-G1EEM-HF54I-AFMO3
+QCC9W-3HRDU-4WF8F-N7DK3
+IQRG8-RIXFD-KEQN2-MO0F3
+64UCE-JQA3N-2200L-3HK19
+ZE3NZ-B5F40-UKG33-QXHQW
+6KYSI-C6TOU-ZFEO1-6XSUQ
+GVSO7-BEY1W-NAZFJ-6E22E
+FQAFZ-PNYKE-4FF9G-0C6L4
+HBK9X-6XWA1-CSJY2-6VDIM
+E8DPQ-GXDSZ-9PHJA-FEKXM
+OBA1Z-7383J-B1Q03-9TMJ4
+GPE9L-Y4X4G-2VLSF-1HTEB
+WLB15-CY3EO-XBIVK-DKBF2
+QMX2O-K1Z3P-54E4G-1LHQB
+7PEOF-D7SZN-AX1H6-2EEW6
+TN2PZ-8BWY4-KADAP-40P3A
+RGAAB-XQTZ0-4GY9P-NK0SU
+7ORXN-XYHQ3-6O7VB-4I1A8
+9Y1Z9-VXDT6-9L90C-QC8PK
+2PIHZ-4WB9R-GX6GT-M05IT
+GS64I-AR0DX-0IP1V-6ACQ5
+LZQB2-SD33Q-2XNUT-I89HX
+0S9GF-YOUSP-2DG7F-6W79L
+QXFZL-IWACL-7I9VH-RY5XP
+T88A3-WD2DI-0OCLJ-26WFG
+4EH2O-KA7JB-PUO5L-GYBBQ
+QT5I5-O98LW-WH5Q6-CITND
+XYFP4-4PHSS-BW0YH-G6KRW
+89UOW-AWZAR-5XF2D-JTD7X
+H070S-MDOYP-LMCWV-MCN72
+NU1TQ-6D2D6-3CCZB-5CZNP
+OJU3C-2KAIK-RHXFO-4B8A5
+S5ZJP-XUBZN-W2IUS-VSGTW
+OIVEV-IYK59-PBVHM-RG3GU
+B709W-8OXB7-4RYB5-927GQ
+1D2ML-CNDF9-UF85O-K95FD
+9BJLE-L71C0-GJEV3-KOB4K
+W79HG-YDOQM-9GJWF-KVCPH
+VVBO1-NH3WJ-H96YC-499MF
+92ZGQ-2R2YY-4DA3N-JVQF9
+95VQ6-DSM8S-K6BQ3-RRTDQ
+VZG4G-ZMLUC-SLJZE-KZ77V
+QP70E-IPL0E-4ZT7A-EDXZA
+P027D-I9R4J-AAS2D-8K55Q
+YOASW-X4VNO-25CWQ-0HSC5
+BP57L-KBJDW-XENNY-M8NU0
+B1VFT-JAIUD-X9U07-OQ5J5
+HQC0C-P8I22-VW9ET-L5AJU
+VGD45-39WAB-3418M-EBIOM
+BU775-83PB5-T6TM2-NS5M6
+DZLMR-KO15A-A1WD6-NS0RA
+3XQXR-SP3MX-37YRV-F9CSQ
+4IC6M-G7WCB-KSS9W-07XBK
+DRKOQ-1SYXR-L8VC2-Z09TP
+UBV79-RDLTZ-VROC3-J1UPT
+IZ6WG-5U19R-TP0P7-YWYR6
+JM0MU-R60XJ-O3KAZ-74UAP
+XHHCQ-UZ71U-87BOX-R413A
+2QV7D-U269V-IH8PK-R9MDA
+BFUCB-33INC-W33E3-G7G7O
+J9LAI-5569O-76G9B-5KM39
+0VE9E-DE4QH-DYHLJ-UYHU7
+HWAK8-U29LQ-4YR7R-NJ87I
+JSCXK-X6XA6-AOD44-KPTSU
+P2HCS-AUO38-5866C-EG5K4
+I87GR-5SFXE-7Y2JB-Y38SB
+VPNYU-J1DIN-946M9-GCXRL
+2UU20-INH4R-LVN6E-6MRNB
+4YMHG-NLJ5E-C78ZM-ZO49F
+0ECHO-2JH8C-AOCRN-GBY2N
+QVT9A-JZMZ8-GGGV4-X6YMZ
+HSB56-3IIBR-QQ52H-2WSOM
+VZX7I-KOJ3S-L28V4-ODT8Z
+LOI2F-HBNZ2-KK5PO-5547N
+NKAPP-SGUA1-T0ZMI-4KE13
+NGNML-NSPAH-JGEGS-33Y6K
+BED4T-8GIFB-BIDBJ-H5JYI
+ALD8G-Q6UJ4-0QICS-UMAIG
+EZRMR-J9KXL-G01RW-ZECMD
+IRL10-LFP6V-4JQZP-SNAQF
+MBAIM-OQWV5-8MO8E-GRZN3
+QJ0GE-AEECC-9SPW1-M9KVO
+4QUVV-1YUGM-JVIH9-GLUP3
+PYZOC-QT38C-JVGFD-ZMMVO
+GW9T8-7OCQ5-84CQN-1MB0P
+WZ5QJ-ZUM7H-3E3KS-UD1FN
+KD1QN-SMSUB-6FHZH-6ZJHD
+1V57C-H9KZ7-UHG7J-HRPRT
+2D8A3-QOFHU-2VFJK-7ABDN
+G78AJ-UR4M0-2MT6O-1N7LT
+LNTPE-ZTDMS-JHIIK-INGVR
+B0J55-4UOTA-Y11AM-UM0KJ
+CT8EC-MLIVE-WCA7Z-OS06N
+1RIDJ-H28YG-6BPX0-RRUJI
+E3CVP-OFZC9-XRJPQ-I8B2O
+SQR8F-OI5TN-NJHGB-34PD8
+KUJ3G-712ZI-0U979-SBULV
+LSRVE-RD99D-BJX64-TLO0F
+ET8DW-XVZ9R-29YDW-H10AN
+MX5US-NKTVE-ZGPT8-M0KWM
+VOUSI-ITFJR-2VQEJ-84KFH
+D3FR3-FSXGA-2GOMS-3OIT1
+M02JC-2L726-GFQS7-MLC98
+1QI6U-0OESP-4S51J-321CD
+LPYMN-E3CF4-NJ61G-M4X0I
+Z1RMV-6OM1G-XO369-SUGPK
+YNXKU-CNPDH-R33GY-C6ZTH
+OT11B-I5ACN-7A7IE-JEFM1
+1901Z-I5OV1-K1OKY-0MOQL
+QT5QK-JZTGA-OCQRF-CLJSV
+PKMGR-C5X00-UAOQV-ZWAU3
+W29TI-UULP8-UBNN8-SCNPT
+1MWRM-HHCD9-NH4JS-IXX8T
+0FPLW-DG8XS-129MR-CQ79N
+WZLPM-7L5M9-FGX0D-C1LLS
+1Z7QH-7UOWI-0VOUQ-J94RX
+N24KP-MYAV2-96S0C-UGU1X
+HXYLX-60UCR-ZE6RY-ZEG07
+IRN9T-FSRE6-6Q5MH-0JJOC
+3Y4SR-XD52M-35PZI-QO5H6
+PCC1I-OB2MG-9BBCT-E2PND
+UNPFT-C4JED-W0D4P-MAX1X
+8A2N6-ST20V-K3SDM-05FGX
+51ULA-AECJI-9LG5T-2FTDI
+Z0FMI-J2MY4-XBB0N-3JDGY
+FKD25-4PADM-FP00G-L3V8S
+TB0FM-QH6QJ-BEFYW-QTFX4
+5ZX14-M3FN6-G8Y17-QQC6X
+ULS0J-1FKJY-1KTHU-RWVNH
+BYZQT-HXLWD-3NZQV-DAQ81
+PNNM9-8UTB0-QQ8L9-Q86ZM
+CWYWE-LQ4DJ-V43Z0-PGPP5
+W3LMR-U6A90-46NA2-PEN5V
+M0I9T-PPPSI-RKOLC-0LPVQ
+J7AAF-S9WEJ-G33MA-DJJYN
+AKHGT-IU2T3-C7V70-KZQL5
+6B8EP-NZ77L-OB4IP-64QQ4
+64QBV-2AOXE-U9RQT-VA07A
+OTY0W-T366Q-VKION-BFSIN
+ROZUF-D31JY-F9T0W-VG5NT
+VT97G-6XN5T-PJS5P-EP0H1
+VUFGE-E7GBQ-6D90W-H2CYR
+XFR11-Y3GY4-S2N5D-AKS6Y
+VCS8X-LT3U7-E5SDN-692WY
+7EC1K-Y5EBF-MOE70-17HG6
+1UDC7-DYUJ6-P3QI7-0EGH6
+R4MH9-ICPAJ-R9XVT-LLKJK
+JE3CS-J2FY9-485P6-7DVQU
+24N14-DRQQQ-VTLKR-DIA3S
+J2COR-GS2QI-2EUW7-VY8TK
+6UGFK-VV3P0-E1SKM-34RUL
+E5PR9-YKKNH-LIINW-P0V2P
+TYJN4-LPVNA-GPEJE-CF3OK
+V1VCF-QPVVG-XSGXF-VPSFO
+IX9I8-W831Q-5GU80-Z2RE7
+W7V9N-P443I-B5CL2-QJS9W
+48H0N-7JG9C-8KB9M-U6G25
+OLUBP-T3M8S-FOLIS-2XR8H
+OO1C9-RDULL-EXT67-9KY7T
+T982J-341C9-5CCNU-RHTHQ
+I4ZKZ-7EGWW-2VOJ7-2UCX3
+RBVVR-30OFC-1Q8LS-A9J4R
+MACXN-3NZXR-QHRR5-7152P
+KT3IC-518M4-K38SB-ZX5GZ
+74EP5-F57NK-XH4NB-EAUSD
+HKXQI-7Q07U-7S4AG-YQDOJ
+6TB0D-RCHQR-VO9J8-VFK7M
+T8RWJ-7TW67-3BB69-619F9
+EWZ61-EIHH0-QN83Q-7CXO7
+RWXX7-P6JX3-ZZG8Q-P75XF
+RQNBJ-W0F9F-T7V02-VGUHE
+XAQIE-LC6VP-RZ6CQ-FEIDM
+407WB-P3O05-NOWJZ-73G6B
+2HYGP-VPK7E-0UDWT-NZH8F
+88DMT-I2533-33N5O-MGUGD
+ZPWQT-GEYHJ-XTA7I-SJBUE
+N6M50-1J3HU-8H84Z-Y15RZ
+XMU4I-GN7S0-9R6Q1-KYRWV
+RI73B-82XHK-8AL2D-BP2LQ
+SF8NF-6RT9B-8XDRK-IHANS
+Y6I62-WW5VG-P5DJA-C2OGO
+EVLZG-6A8IX-TS0F3-PVM2H
+2BXR8-OO0LN-NFNJ6-IEQJC
+H4CCX-RNQ4N-ZN6JP-3MUFK
+47QJH-MSYES-6TA2P-7Y4HL
+KG52V-58CDA-8ZDTC-BRQYH
+RBPJF-NBKJZ-OUT30-PRSRU
+V444P-2MC5F-KJNHL-N10SE
+6SNNT-6R1KZ-SOUMG-IJXR9
+WOTSS-GCK3N-8R1YA-E9K5M
+08K6B-GX5WM-QH0J4-0264M
+SC0SZ-W593M-0VG97-GRZ8M
+G4MDQ-KW5X1-1HBW3-OHBUR
+8S6GF-5CWDN-USDXA-V7KV5
+MMTPP-LL2JA-619HY-EP8TQ
+IYCK3-81RMK-17BYA-8BPPL
+53HM2-IMCEH-PR9G8-0FJFP
+I95HX-9NW90-1J2NG-MW9BB
+O046M-HPTEG-UDETE-ZN8H0
+O1WD6-1A0E4-80DBN-LPEGT
+3KZE3-ZRFCO-XUF5F-2BQ7O
+57JGJ-95FB2-QD1OB-IUKOE
+F7W0G-BXK76-UDGAY-PHAMX
+MEHCC-EJ1EI-78OGI-5SYYV
+WAMB0-HVV93-2PLSB-9GGF8
+MICWG-X9NMY-GX70H-413OC
+2BZL7-8X5OT-OTX73-EL05P
+YVV6R-CNWFE-SVA5C-EYDOT
+L06ZW-1ZDMM-VYM2U-99Q0J
+ZJPAJ-0K2RE-CXE29-UUCPM
+QNSX6-BMNZ1-PT3VV-DYWFI
+ZYDWI-1SA6R-Q7XO5-XQ5BO
+8BDRF-R1V8F-USO1E-7K31L
+Y3SLC-X9B43-WFQU9-F4VJG
+1W89K-3I59O-3P2GK-WLT3E
+BMQCP-BXL1M-2J6NB-42TX5
+5YOH3-C36ZQ-64JPT-FBTA3
+NYH0J-E4SJO-PF798-4QPYP
+DAN85-654IX-S3ACV-AI8B4
+8RF0W-MLPTQ-FDVE5-Y0XKZ
+RYRUJ-63N2L-Q7434-PE01Y
+9D7YI-YFXUC-AQHC4-JKHBE
+NSOZ4-L4WD6-BAL97-S3LJK
+H5CGF-N6AS0-5OBCG-STQZC
+0C9E2-IU9GH-RYC20-2AAVT
+6TTDF-TPV8F-S97AM-N6MMN
+EZTBV-J2UDJ-DJ1Z8-BBW8O
+SHIZ7-3JEI7-H10RR-N28GB
+IUP1Z-ZSBBI-BIMK0-VU3CS
+VL15Y-K7YT4-Q502K-O25QT
+8S1SS-PVX9N-8WXX9-YB41D
+IEEQP-U51BW-QWX9O-0TJIJ
+DXNED-OO7J5-DVKC5-W3F51
+JZT0Y-FXO0L-63XRC-N9QFB
+6FK0D-HCFTI-IW8WM-1KFWI
+8DE6V-S9WLW-R53D1-AMS52
+1MXKK-TOXPC-O4LSA-JAWCE
+64A8F-2VAPP-5FRSL-I3HPJ
+65CM1-41S87-NAQYP-O3BPO
+18O4J-A8ZL1-13PEB-D8GC3
+SZMJO-2954H-4OVXI-RWQNO
+WL65G-RR2GB-SNQU3-EW8JZ
+U6TYN-U45K2-5W948-JB5H4
+JTVLR-4TQRW-RZT78-RY435
+HB5CC-RWI0J-7QLB9-UICTB
+DNR6J-GMNZ4-1Y458-SBUBM
+YPN0C-5PCP2-0EBQM-RCH6N
+7ZM59-6FIKZ-Y17QX-FCFTO
+O1085-ORPFB-UHRQ5-CGGGK
+CQ1X6-MZNN2-LKD6I-T9AML
+QTLMP-JP7QG-12M05-KIB08
+QQ2YU-EJ8IQ-CW7JG-FI0NA
+YLL9F-AXB12-6YZDN-08945
+RFI0S-6GY56-L6ZKI-1STD5
+BARX6-YE3WZ-ADC5L-ERI32
+A4TDI-999FQ-A25A9-2LY9R
+SQY4W-YN0V6-59YKM-BMGJC
+LXGWU-OL57W-9VIY2-AO6LM
+W8FKI-3ARNS-UF1U3-H7ZTZ
+4HEUT-OKKAV-C3FN9-J2G1P
+H8S9Z-YVAHF-3MUX1-NR5D0
+MKZTN-NZCK2-4P3P6-MM7OQ
+8RWIQ-HMCO2-SP035-CEOWB
+O1XNL-1HLWP-T7I1B-TCUTW
+O3IBZ-7IB9M-9INCU-C6EI4
+UIRTF-74X8G-IVR3O-L5118
+H8RZ3-KZJ1W-OSGTK-HRLRF
+OCA45-AWI6T-RGX7Q-OJC42
+CRRHS-H52XH-1JBB2-920JA
+HLFGB-15RHD-BBK1J-W2YLJ
+CVYK1-Z76BF-LDV13-LGT93
+6VHXR-DCK23-ICHSN-RGUMI
+WZXX6-ZOCJX-Q5WK3-4392B
+ZAEBN-Z978S-6EY0T-QME00
+ZR945-YP2YL-94A19-NPHUT
+MJ7FO-BQFF7-WPSI4-WD8YR
+74L8L-CE6YK-9S51A-YH57E
+Q5E9T-FE6FD-8IAZO-WWUP8
+GX9M2-ZET6P-8YZVZ-O5PC4
+BVBGU-03VYF-4V3WQ-2CPNU
+B5XUS-Q451F-D5AIO-1JOW8
+0P1GF-KGD38-8ADDZ-GPNZN
+HN7VE-YI5K8-ZTST8-V3TVR
+QIXFL-KLUZ6-PZ70G-VZITW
+10VG4-AVCSO-WG5QK-QVP4B
+PYXKA-ULFKU-AQQKF-9L3UG
+YFNYY-Q5568-OM35B-UYFGL
+4HQ6A-9TG4J-HRZZQ-M8Q7B
+1BC1Z-DPD2B-EH855-68SK0
+TX1GE-U50DU-RRR29-AW4BR
+Y6X09-7ZLUQ-OXKP9-E2K0F
+0CZL0-9C901-3D56P-1DCOG
+TBC1S-4RAHK-WSZI4-XOM86
+1YJSJ-SWGM9-AXX8K-8OI4L
+5VJMA-RCOKJ-GWZMM-71S6V
+Z1BMW-D7WG1-067ZJ-NKCXV
+GZSQ5-WRTOY-WXRTG-1KOD4
+EYKFI-VGA6G-NVFMH-V9FGV
+H7FD8-N1C9P-HXVSY-RX7X4
+HJRNH-E4QPE-2LSMP-DQ3ZM
+663AA-77GY8-V0GKZ-N44X2
+KISFV-IPQYP-ZFM70-ZKHX6
+7184W-DEMAL-PG9TW-KOK7R
+7RLPD-UYWD3-N3FBE-UD2PC
+UJ39H-ZYRL1-NRTER-OLD9E
+ZAZS5-H4VVF-VEOZ7-R9MZU
+TLAV9-OBO5M-5EIYA-O7CFG
+CPEM8-Z5LGD-7RNWO-MFUJZ
+CRYX8-RNTNJ-SXH7V-004SJ
+JM5UJ-KLACC-VPQS7-IB1MZ
+ZXMJ1-7HN04-SNEVB-Z1DPV
+IDR7Z-3EMDT-VTO7H-3ITJO
+72WCR-NPEKP-BU4ZB-W0XJ9
+A7EGX-QLDXZ-RGMQA-HWMQ9
+FFK2K-BHY7H-GHI99-A1K33
+M8CY2-C0X2O-X79TH-FHZ8Q
+21HDP-46E2M-RD5SY-UOGTB
+0PKUZ-Z1G7S-LW5EL-UHJZV
+3UN42-HNHF5-TFLLC-RF3XT
+N7EB9-9AMWI-HTC9Q-N1X7S
+5YXAZ-AAIN6-WBRBM-NV30S
+695RH-NNJ8F-DXK2D-7EYC2
+QMTGK-G216H-8AO37-ETWFZ
+01Y4U-KQCJD-WJC7H-H0LR0
+8QKYC-865Y8-8EKCZ-JUYW5
+3JG20-2HO02-XHCTM-LX223
+Q61JE-GRRZ8-18294-7ARVG
+6C2G2-J1Y65-P2UU9-ZO796
+WTJET-INMJW-IMZ1H-XTJSZ
+R6BV0-9HBSA-Q6IMO-OMOJZ
+EKZIJ-7LJY7-PV7CB-MC8H7
+HW85R-RYQUN-6PXLD-ZCN8J
+TQN0U-W5FCL-8WR3T-34Y6G
+XATIU-KL7AR-IAYD2-91HNS
+V3Z1T-QGW5L-2AGMJ-MQ1WU
+E4XDV-3S8M9-2LMOH-TUH41
+IN649-QSV0O-7QMXO-DNJ88
+ODV50-571H2-3C9KS-Y2Z5V
+IN2UI-URHSF-E4A2D-74N0I
+J3IFA-V5B5S-P51V7-9WGYO
+8ECUE-YU336-U191O-62V8H
+VR9GP-ZQWAO-KFCIY-HZTG5
+MIMP6-9I7O5-ZJA9P-DSNAZ
+Y1EH6-IMKMV-V1L7M-H8EQF
+WOECO-OQKIK-XOGZY-4P24I
+508CP-0EUHT-V6L0S-Z61C4
+09ZYK-WNA8X-K8GG4-IBMRM
+FR4TZ-Y5OWV-STK2U-3GS4B
+CE8Q7-CYOBQ-22SOM-HAA3V
+PJL3W-PL6HC-QET0S-S70RB
+RIMAA-LOTRL-M2W8R-Q1T57
+9ZSU1-OSMC2-3USPM-4XW1P
+FH09G-981P5-EUC50-W823F
+GSFIE-YA3NG-KIUY2-FW25D
+L7LI1-IQQC1-OVNIF-GAMQK
+Z2FGA-OQK9P-CKAPC-KW6HJ
+6DK0T-CP28F-B1Z1I-VWQZW
+K8J88-GW7HC-OHFTR-9U4MC
+A0XMF-M955H-2LEBA-9W8EB
+ZS2AK-YL35U-QO3PE-DBE0G
+JMWFZ-80NX9-SYERK-QTX1W
+Q3R8X-E31P7-Y14RS-0S7WX
+1T8NV-CWR47-LW8LZ-8Q1FK
+T7WK9-KM7T2-O25SY-PW645
+4PFT7-NTNIY-1NEAN-50EO6
+5OHHC-V6W8K-RVAKE-TSS6S
+ZNCOC-02S7F-TGGON-6HTJW
+QI3OL-WYE9I-DK0KB-XM3BK
+I4YRS-572D8-GGD11-2J6A9
+W1SXN-LBK5Z-J9UX2-4O04H
+JSFAB-NR3ZH-9R3FJ-NWB2I
+1L0M6-T8QK8-ZQFYT-LN7A2
+6SOII-C4KIO-CK7QI-FCN77
+CEI0J-6QY95-Y1T3X-M9L2P
+3G7XF-DH9CO-2HEKD-MWCEX
+VZ3UQ-F0OIZ-Z3E4K-UOM7B
+X4D56-O0H38-SSGBF-05H8T
+8SWK9-I0JMC-QTPOY-9U47Z
+2TQO3-V1QQ7-LCYLN-2J0LT
+LRH27-DRFNK-QKNKF-RB7QG
+IR5IY-HX15L-Y9KI5-TPPHD
+7GBYO-N77DO-9QDF9-RWHAR
+0OTP7-0MLAW-5797O-G2ZNI
+HTU5A-SOY1F-E6ZSU-LSM3T
+IF7NI-7BFEA-ESUFZ-OXTCR
+[Serials_End]
+[Commands]
