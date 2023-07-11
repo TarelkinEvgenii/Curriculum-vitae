@@ -10,15 +10,12 @@ import ctypes
 import ezdxf
 import logging
 
-import time
 from PyQt6.QtCore import QRunnable  # контейнер для работы, которую вы хотите выполнить
 from PyQt6.QtCore import QThreadPool  # Для многопоточности
 from PyQt6.QtCore import pyqtSlot  # Для обозначения слотов
-from PyQt6.QtWidgets import QApplication  # QApplication.processEvents() для получения ивентов в работающей функции
+from PyQt6.QtWidgets import \
+    QApplication  # QApplication.processEvents() для получения ивентов в работающей функции
 from PyQt6.QtWidgets import QMessageBox
-
-from PyQt6.QtWidgets import QDialog, QLabel, QVBoxLayout, QDialogButtonBox # для кастомного диалога для инструкций
-
 
 from collections import Counter
 import pandas as pd
@@ -45,10 +42,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.logger = self.processing_class.initialize_logger(self.now)
         # Инициализация многопоточности
         self.threadpool = QThreadPool()
-        self.logger.info("Multithreading with maximum %d threads" % self.threadpool.maxThreadCount())
+        self.logger.info(
+            "Multithreading with maximum %d threads" % self.threadpool.maxThreadCount())
 
         # Доп. инициализация окна
-        self.window().setFixedSize(430, 340) # Зафиксируем масштаб
+        self.window().setFixedSize(430, 340)  # Зафиксируем масштаб
         self.window().setWindowTitle(f'{self.window().windowTitle()} v1')
         # Настройка картинки окна
         basedir = os.path.dirname(__file__)
@@ -60,7 +58,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
         except ImportError:
             pass
-
 
         # Инициализация кнопок
         # Окно поиска файла
@@ -99,13 +96,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 AutoCad сам исправил некорректную конвертация русского языка.
         '''
         QMessageBox.information(self, 'Инструкция по слоям', text)
+
     @pyqtSlot()
     def find_file_dialog(self):
         file_filter = 'AutoCad dxf File (*.dxf)'
         initial_filter = 'AutoCad dxf File (*.dxf)'
 
         # Выбор пути
-        if self.file_path.text() !='':
+        if self.file_path.text() != '':
             if Path(self.file_path.text()).is_dir():
                 path = self.file_path.text()
             else:
@@ -121,7 +119,7 @@ AutoCad сам исправил некорректную конвертация 
             initialFilter=initial_filter
         )
         # Если что-то выбрали
-        if str(response[0])!='':
+        if str(response[0]) != '':
             self.file_path.setText(str(response[0]))
 
     @pyqtSlot()
@@ -150,9 +148,9 @@ AutoCad сам исправил некорректную конвертация 
         # но это не совсем хороший случай,
         # так как может получить долгое событие и будет тупить в ожидании его выполнения)
 
-        worker = ThreadWorker(self.logger, self.load_dxf_multithreading, self.file_path.text())  # Any other args, kwargs are passed to the run function
+        worker = ThreadWorker(self.logger, self.load_dxf_multithreading,
+                              self.file_path.text())  # Any other args, kwargs are passed to the run function
         self.threadpool.start(worker)
-
 
     def load_dxf_multithreading(self, thread_file_path):
 
@@ -175,7 +173,6 @@ AutoCad сам исправил некорректную конвертация 
         else:
             self.label_5.setText(f"Файл не выбран")
 
-
         # Проверка файл
         if file_read:
             self.logger.info(f"AutoCad release: {self.doc.acad_release}")
@@ -186,7 +183,8 @@ AutoCad сам исправил некорректную конвертация 
             self.logger.info(f'There are following layers with following number of entities')
 
             self.layers = Counter(
-                [e.dxf.layer for e in self.msp]).most_common()  # Различные слои и количество записей
+                [e.dxf.layer for e in
+                 self.msp]).most_common()  # Различные слои и количество записей
 
             self.attributes_per_layer = {}  # Словарь с аттрибутами слоя
 
@@ -208,7 +206,8 @@ AutoCad сам исправил некорректную конвертация 
                 selected_layer = layer[0]
                 self.logger.info('-*' * 60)
                 # Проверка есть ли в слое INSERT тип
-                flag_have_insert_type = max([element[0] == 'INSERT' for element in self.different_dxftype[selected_layer]])
+                flag_have_insert_type = max(
+                    [element[0] == 'INSERT' for element in self.different_dxftype[selected_layer]])
                 if flag_have_insert_type:
                     # Тут берём только INSERT объекты
                     self.logger.info(
@@ -217,7 +216,8 @@ AutoCad сам исправил некорректную конвертация 
                         # Тут берём только INSERT объекты
                         number_of_attributes_per_layer = Counter(
                             [len(element.attribs) for element in
-                             list([e for e in self.msp if e.dxf.layer == selected_layer and e.DXFTYPE == 'INSERT'])]
+                             list([e for e in self.msp if
+                                   e.dxf.layer == selected_layer and e.DXFTYPE == 'INSERT'])]
                         ).most_common()
                         for attribute in number_of_attributes_per_layer:
                             self.logger.info(f'\t{attribute}')
@@ -227,7 +227,8 @@ AutoCad сам исправил некорректную конвертация 
                         different_attributes = Counter(
                             [item.dxf.tag for sublist in
                              [element.attribs for element in
-                              list([e for e in self.msp if e.dxf.layer == selected_layer and e.DXFTYPE == 'INSERT'])]
+                              list([e for e in self.msp if
+                                    e.dxf.layer == selected_layer and e.DXFTYPE == 'INSERT'])]
                              for item in sublist]
                         ).most_common()
                         for attribute in different_attributes:
@@ -249,7 +250,6 @@ AutoCad сам исправил некорректную конвертация 
             self.areas.addItems([layer[0] for layer in self.layers])
             self.red_lines.addItems([layer[0] for layer in self.layers])
 
-
             # Разблокировка кнопки нахождения пересечений
             self.execute.setEnabled(True)
 
@@ -262,7 +262,6 @@ AutoCad сам исправил некорректную конвертация 
             self.load_dxf_to_program.setEnabled(True)
             self.label_5.setText(f"dxf файл не загружен")
 
-
     @pyqtSlot()
     def red_line_crossing(self):
 
@@ -273,7 +272,8 @@ AutoCad сам исправил некорректную конвертация 
         # (Функция выше даёт возможность приложению получить другие события,
         # но это не совсем хороший случай,
         # так как может получить долгое событие и будет тупить в ожидании его выполнения)
-        worker = ThreadWorker(self.logger, self.red_line_crossing_multithreading)  # Any other args, kwargs are passed to the run function
+        worker = ThreadWorker(self.logger,
+                              self.red_line_crossing_multithreading)  # Any other args, kwargs are passed to the run function
         self.threadpool.start(worker)
 
     def red_line_crossing_multithreading(self):
@@ -284,9 +284,15 @@ AutoCad сам исправил некорректную конвертация 
         # self.red_lines.currentText()
         self.logger.info('Start saving to csv')
         # Сохраним данные слоёв в файлы, чтобы в случае ошибок можно было посмотреть, что было там записано
-        self.processing_class.getting_data_from_layer(self.msp, self.logger, self.attributes_per_layer, self.border.currentText(), self.now)
-        self.processing_class.getting_data_from_layer(self.msp, self.logger, self.attributes_per_layer, self.areas.currentText(), self.now)
-        self.processing_class.getting_data_from_layer(self.msp, self.logger, self.attributes_per_layer, self.red_lines.currentText(), self.now)
+        self.processing_class.getting_data_from_layer(self.msp, self.logger,
+                                                      self.attributes_per_layer,
+                                                      self.border.currentText(), self.now)
+        self.processing_class.getting_data_from_layer(self.msp, self.logger,
+                                                      self.attributes_per_layer,
+                                                      self.areas.currentText(), self.now)
+        self.processing_class.getting_data_from_layer(self.msp, self.logger,
+                                                      self.attributes_per_layer,
+                                                      self.red_lines.currentText(), self.now)
         self.logger.info('Finish saving to csv')
         # Считываем слои
 
@@ -328,7 +334,8 @@ AutoCad сам исправил некорректную конвертация 
 
         # red_lines GeoPandas
 
-        red_lines[column_with_coords_str] = red_lines[column_with_coords].apply(lambda x: LineString(x))
+        red_lines[column_with_coords_str] = red_lines[column_with_coords].apply(
+            lambda x: LineString(x))
 
         # Превращаем в текст, чтобы распарсить именно при помощи GeoPandas
         red_lines[column_with_coords_str] = red_lines[column_with_coords_str].astype(str)
@@ -370,12 +377,12 @@ AutoCad сам исправил некорректную конвертация 
                                   lsuffix='border',
                                   rsuffix='areas')
 
-
         # Преобразуем из геометрии границы в геометрию участков
         column_with_coords_str = column_with_coords_str + '_areas'  # 'block_coords_str_areas'
         after_border_resulting_column = resulting_column + '_areas'  # 'geometry_areas'
 
-        border_inside[after_border_resulting_column] = gpd.GeoSeries.from_wkt(border_inside[column_with_coords_str])
+        border_inside[after_border_resulting_column] = gpd.GeoSeries.from_wkt(
+            border_inside[column_with_coords_str])
         border_inside = border_inside.set_geometry(after_border_resulting_column)
 
         border_inside = gpd.GeoDataFrame(border_inside,
@@ -383,10 +390,10 @@ AutoCad сам исправил некорректную конвертация 
 
         # Пересекаем участки с красными линиями
         self.areas_intersection = gpd.sjoin(border_inside, red_lines,
-                                       how='inner',
-                                       predicate='intersects',
-                                       lsuffix='border_inside',
-                                       rsuffix='red_lines')
+                                            how='inner',
+                                            predicate='intersects',
+                                            lsuffix='border_inside',
+                                            rsuffix='red_lines')
 
         # areas_intersection['block_coords'] - координаты красных линий
         # areas_intersection['block_coords_areas'] - координаты кадастровых участков
@@ -411,6 +418,7 @@ AutoCad сам исправил некорректную конвертация 
         self.execute.setEnabled(False)
 
         self.label_6.setText(f"Завершено")
+
     @pyqtSlot()
     def save_to_html_function(self):
         self.logger.info(f"Start saving in html")
@@ -445,7 +453,8 @@ AutoCad сам исправил некорректную конвертация 
             self.logger.info(f'Начинаю сохранение')
             worker = ThreadWorker(self.logger,
                                   self.save_to_html_function_multithreading,
-                                  response[0])  # Any other args, kwargs are passed to the run function
+                                  response[
+                                      0])  # Any other args, kwargs are passed to the run function
             self.threadpool.start(worker)
         else:
             self.logger.info(f'Без сохранения, так как файл не был выбран')
@@ -453,7 +462,6 @@ AutoCad сам исправил некорректную конвертация 
 
             if button == QMessageBox.StandardButton.Ok:
                 self.logger.info("OK!")
-
 
     def save_to_html_function_multithreading(self, path):
 
@@ -493,7 +501,8 @@ AutoCad сам исправил некорректную конвертация 
                                fill=True,
                                fill_color='green').add_to(
                     areas_layer)
-                self.logger.info('Ошибка заранее предустановленные значения столбцов для слоя участки отличаются от значений в текущих данных')
+                self.logger.info(
+                    'Ошибка заранее предустановленные значения столбцов для слоя участки отличаются от значений в текущих данных')
         # areas_intersection[self.msk_areas].apply(
         #     lambda x: folium.Polygon(locations=x, color='green', fill=True, fill_color='green', popup='<b>Area</b>').add_to(areas_layer))
 
@@ -512,9 +521,10 @@ AutoCad сам исправил некорректную конвертация 
         # Граница
         self.logger.info("Вырисовка границы")
         border_layer = folium.FeatureGroup(name='Граница')
-        border_for_visualization = self.processing_class.convert_msk16_to_wgs84(areas_intersection_to_save[
-                                                              self.msk_border].iloc[
-                                                              0])
+        border_for_visualization = self.processing_class.convert_msk16_to_wgs84(
+            areas_intersection_to_save[
+                self.msk_border].iloc[
+                0])
         folium.PolyLine(locations=border_for_visualization, color='black').add_to(border_layer)
 
         border_layer.add_to(m)
@@ -529,7 +539,6 @@ AutoCad сам исправил некорректную конвертация 
         webbrowser.open(f'{path}')
 
         self.label_7.setText(f"Завершено")
-
 
     @pyqtSlot()
     def save_to_xlsx_function(self):
@@ -561,13 +570,12 @@ AutoCad сам исправил некорректную конвертация 
                                                          filter=file_filter,
                                                          initialFilter=initial_filter)
 
-
-
         if str(response[0]) != '':
             self.logger.info(f'Начинаю сохранение')
             worker = ThreadWorker(self.logger,
                                   self.save_to_xlsx_function_multithreading,
-                                  response[0])  # Any other args, kwargs are passed to the run function
+                                  response[
+                                      0])  # Any other args, kwargs are passed to the run function
             self.threadpool.start(worker)
         else:
             self.logger.info(f'Без сохранения, так как файл не был выбран')
@@ -575,7 +583,6 @@ AutoCad сам исправил некорректную конвертация 
 
             if button == QMessageBox.StandardButton.Ok:
                 self.logger.info("OK!")
-
 
     def save_to_xlsx_function_multithreading(self, path):
 
@@ -600,8 +607,8 @@ AutoCad сам исправил некорректную конвертация 
 
         # Чтобы не менять в оригинальном файле названия столбцов
         areas_intersection_to_save = areas_intersection_to_save.rename(
-                                            columns={self.msk_roads: 'Координаты_красных_линий',
-                                                     self.msk_areas: 'Координаты_кадастровых_участков'})
+            columns={self.msk_roads: 'Координаты_красных_линий',
+                     self.msk_areas: 'Координаты_кадастровых_участков'})
 
         areas_intersection_to_save.to_excel(f'{path}', index=False)
         self.logger.info(f'Finish saving in xlsx {path} - {self.now}')
@@ -642,7 +649,8 @@ AutoCad сам исправил некорректную конвертация 
             self.logger.info(f'Начинаю сохранение')
             worker = ThreadWorker(self.logger,
                                   self.save_to_dxf_function_multithreading,
-                                  response[0])  # Any other args, kwargs are passed to the run function
+                                  response[
+                                      0])  # Any other args, kwargs are passed to the run function
             self.threadpool.start(worker)
         else:
             self.logger.info(f'Без сохранения, так как файл не был выбран')
@@ -669,8 +677,9 @@ AutoCad сам исправил некорректную конвертация 
             areas = pd.DataFrame(areas[self.msk_areas].apply(lambda x: eval(x)))
 
             areas[self.msk_areas].apply(lambda x: self.msp.add_lwpolyline(x,
-                                                                          dxfattribs={'layer': 'Mistakes',
-                                                                                      'color': ezdxf.colors.BLUE}))
+                                                                          dxfattribs={
+                                                                              'layer': 'Mistakes',
+                                                                              'color': ezdxf.colors.BLUE}))
 
             # Отрисовка дорог
             self.logger.info(f'Начало отрисовки дорог')
@@ -682,8 +691,9 @@ AutoCad сам исправил некорректную конвертация 
             roads = pd.DataFrame(roads[self.msk_roads].apply(lambda x: eval(x)))
 
             roads[self.msk_roads].apply(lambda x: self.msp.add_lwpolyline(x,
-                                                                          dxfattribs={'layer': 'Mistakes',
-                                                                                      'color': ezdxf.colors.YELLOW}))
+                                                                          dxfattribs={
+                                                                              'layer': 'Mistakes',
+                                                                              'color': ezdxf.colors.YELLOW}))
 
             # Изменили dxf
             self.dxf_modified = True
@@ -695,6 +705,8 @@ AutoCad сам исправил некорректную конвертация 
         else:
             self.logger.info(f'ERROR saving in dxf {path} - {self.now}')
             self.label_7.setText(f"Ошибка сохранения")
+
+
 class ThreadWorker(QRunnable):
     '''
     Worker thread
@@ -754,7 +766,8 @@ class Processing:
 
         logger.info(f'Inside {following_layer} layer inside object INSERT')
         inside_block = Counter(
-            [item.DXFTYPE for e in msp if e.dxf.layer == following_layer and e.DXFTYPE == 'INSERT' for item in
+            [item.DXFTYPE for e in msp if e.dxf.layer == following_layer and e.DXFTYPE == 'INSERT'
+             for item in
              e.block()]).most_common()
         if len(inside_block) == 0:
             logger.info('\tEMPTY')
@@ -764,7 +777,8 @@ class Processing:
 
         # Наличие в слое атрибутов
         try:
-            columns_for_data_area = [attribute[0] for attribute in attributes_per_layer[following_layer]]
+            columns_for_data_area = [attribute[0] for attribute in
+                                     attributes_per_layer[following_layer]]
         except:
             columns_for_data_area = []
 
@@ -774,7 +788,8 @@ class Processing:
         columns_for_data_area.append('ERROR')
 
         data_csv = pd.DataFrame(columns=columns_for_data_area,
-                                index=range(len([e for e in msp if e.dxf.layer == following_layer])))
+                                index=range(
+                                    len([e for e in msp if e.dxf.layer == following_layer])))
 
         index_for_iteration = 0
 
@@ -814,7 +829,8 @@ class Processing:
 
                 # Обработка полилиний
                 elif e.dxf.dxftype == 'LWPOLYLINE':
-                    block_coords.insert(-1, list(e.lwpoints.values))  # Не на последнее место ставит, а на предпоследнее
+                    block_coords.insert(-1, list(
+                        e.lwpoints.values))  # Не на последнее место ставит, а на предпоследнее
                     is_closed.insert(-1, e.is_closed)
                     dxftype.insert(-1, e.dxf.dxftype)
 
@@ -849,7 +865,8 @@ class Processing:
 
         error_data_csv = data_csv.loc[data_csv.ERROR == True]
         if len(error_data_csv) != 0:
-            error_data_csv.to_csv(f'ERROR_{following_layer} {now}.csv', index=False, encoding='UTF16')
+            error_data_csv.to_csv(f'ERROR_{following_layer} {now}.csv', index=False,
+                                  encoding='UTF16')
 
     def msk16_to_wgs84(self, x, y):
         # Define the MSK16 and WGS84 coordinate reference systems
@@ -934,7 +951,8 @@ class Processing:
         # 3. Делаем explode
         # Для проверки корректности будущей строка ниже
         checking = data[column_with_coords].apply(lambda x: len(x)).value_counts().reset_index()
-        checking_2 = data[column_with_is_closed].apply(lambda x: len(x)).value_counts().reset_index()
+        checking_2 = data[column_with_is_closed].apply(
+            lambda x: len(x)).value_counts().reset_index()
         assert len(data.explode(column_with_coords, ignore_index=True)) == len(
             data.explode(column_with_is_closed, ignore_index=True))
 
@@ -964,14 +982,12 @@ class Processing:
         for indx in range(len(data)):
             # Проверка закрыт или нет, а потом проверка равен ли первый индекс последнему
             if data[column_with_is_closed].iloc[indx] == True and \
-                    data[column_with_coords].iloc[indx][0] != data[column_with_coords].iloc[indx][-1]:
+                    data[column_with_coords].iloc[indx][0] != data[column_with_coords].iloc[indx][
+                -1]:
                 data[column_with_coords].iloc[indx].append(
                     data[column_with_coords].iloc[indx][0])
 
         return data
-
-
-
 
 
 if __name__ == "__main__":
